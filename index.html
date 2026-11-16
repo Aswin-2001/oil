@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Suprakan Foods — Organic Cold-Pressed Oils & Millet Foods</title>
+<meta name="description" content="100% organic, cold-pressed, chemical-free oils and wholesome millet foods from Rasipuram, Tamil Nadu.">
+<style>
+:root{--q1:#EBF4DD;--q2:#cbdac0;--q2:color-mix(in srgb,var(--q4) 35%,var(--q1));--q3:#b4c8ac;--q3:color-mix(in srgb,var(--q4) 60%,var(--q1));--q4:#90AB8B;--g:#5A7863;--dk:#3B4953;--bg:var(--q1);--card:#f6faef;--card:color-mix(in srgb,var(--q1) 45%,#fff);--ink:var(--dk);--mute:#626f71;--mute:color-mix(in srgb,var(--dk) 78%,var(--q1));--brand:var(--g);--brand2:var(--q4);--brand3:var(--dk);--brandt:#4f695c;--brandt:color-mix(in srgb,var(--g) 72%,var(--dk));--line:var(--q3);--soft:var(--q2);--foot:var(--dk);--footink:var(--q1);--bad:#8c3a2b;--ok:var(--brandt);--warn:var(--dk);--onb:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:var(--dk);--card:#323d45;--card:color-mix(in srgb,var(--dk) 82%,#000);--ink:var(--q1);--mute:var(--q3);--brand:var(--q3);--brand2:var(--q4);--brand3:var(--q2);--brandt:var(--q3);--line:#55656a;--line:color-mix(in srgb,var(--dk) 70%,var(--q4));--soft:#46545a;--soft:color-mix(in srgb,var(--dk) 78%,var(--g));--foot:#232b31;--foot:color-mix(in srgb,var(--dk) 60%,#000);--footink:var(--q1);--bad:#ffb4a2;--ok:var(--q3);--warn:var(--q2);--onb:var(--dk)}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:var(--dk);--card:#323d45;--card:color-mix(in srgb,var(--dk) 82%,#000);--ink:var(--q1);--mute:var(--q3);--brand:var(--q3);--brand2:var(--q4);--brand3:var(--q2);--brandt:var(--q3);--line:#55656a;--line:color-mix(in srgb,var(--dk) 70%,var(--q4));--soft:#46545a;--soft:color-mix(in srgb,var(--dk) 78%,var(--g));--foot:#232b31;--foot:color-mix(in srgb,var(--dk) 60%,#000);--footink:var(--q1);--bad:#ffb4a2;--ok:var(--q3);--warn:var(--q2);--onb:var(--dk)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:60}
+a{color:var(--brandt)}img{max-width:100%}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--card);background:color-mix(in srgb,var(--card) 90%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);box-shadow:0 2px 14px #0000000d;animation:drop .6s both}
+.hd{max-width:1100px;margin:auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:10px 16px}
+.logo{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:20px;letter-spacing:-.01em;color:var(--brandt);text-decoration:none;margin-right:auto;white-space:nowrap}.logo span{display:inline-block;animation:sway 3s ease-in-out infinite;transform-origin:bottom}
+nav{display:flex;flex-wrap:wrap;align-items:center}nav{gap:4px}nav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px;padding:7px 13px;border-radius:999px;transition:background .2s,color .2s}nav a:hover{background:var(--soft);color:var(--brandt)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:999px;padding:11px 20px;font:inherit;font-weight:700;cursor:pointer;background:var(--brand);color:var(--onb);text-decoration:none;transition:transform .15s,filter .15s,box-shadow .2s}
+.btn:hover{filter:brightness(1.08);transform:translateY(-2px);box-shadow:0 6px 16px #0002}.btn:not(.alt):not(.bad):hover{background:var(--brand3);color:var(--onb)}.btn:active{transform:scale(.96)}.btn:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
+.btn.alt{background:var(--soft);color:var(--ink);border:1px solid var(--line)}.btn.sm{padding:6px 12px;font-size:13px}.btn.bad{background:var(--bad);color:#fff}.btn.pulse{animation:pulse 2s infinite}
+.badge{background:var(--brand2);color:#3B4953;border-radius:999px;font-size:12px;padding:1px 7px;font-weight:800;display:inline-block}.badge.bump{animation:bump .4s}
+.wrap{max-width:1100px;margin:auto;padding:24px 16px 60px}
+.hero{position:relative;overflow:hidden;color:var(--q1);background:linear-gradient(120deg,var(--dk),var(--g) 62%,var(--q4));background-size:200% 200%;animation:bg 12s ease infinite;border:0;border-radius:24px;padding:54px 24px;text-align:center;margin-bottom:22px}
+.hero>*{position:relative;z-index:1}.hero h1{font-size:clamp(28px,6vw,50px);line-height:1.15;margin:0 0 10px;animation:up .8s .1s both}.hero h1 em{font-style:normal;color:var(--q1);box-shadow:inset 0 -.34em 0 var(--g)}
+.hero p{color:var(--q1);opacity:.92;margin:0 0 20px;animation:up .8s .25s both}.hero .acts{animation:up .8s .4s both}
+.fl{position:absolute!important;z-index:0!important;font-size:34px;opacity:.55;animation:float 7s ease-in-out infinite}.f1{left:6%;top:14%}.f2x{right:8%;top:18%;animation-delay:-2s}.f3{left:12%;bottom:12%;animation-delay:-4s}.f4{right:14%;bottom:10%;animation-delay:-1s}.f5{left:46%;top:6%;animation-delay:-3s;font-size:26px}
+.hero .chip{background:#ffffff1f;border-color:#ffffff44;color:var(--q1)}.hero .btn{background:var(--q1);color:var(--dk)}.hero .btn:hover{background:#fff;color:var(--dk)}.hero .btn.alt{background:transparent;color:var(--q1);border:1px solid var(--q1)}.hero .btn.alt:hover{background:#ffffff26}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 20px}.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;animation:pop .5s both}.chip:nth-child(2){animation-delay:.1s}.chip:nth-child(3){animation-delay:.2s}.chip:nth-child(4){animation-delay:.3s}
+.mq{overflow:hidden;background:var(--brand);color:var(--onb);border-radius:12px;margin-bottom:8px}.mqt{display:flex;gap:40px;white-space:nowrap;width:max-content;padding:9px 0;font-weight:700;font-size:14px;animation:mq 28s linear infinite}.mq:hover .mqt{animation-play-state:paused}
+h2{font-size:28px;margin:36px 0 4px}h2.rv::after{content:"";display:block;width:60px;height:4px;border-radius:4px;margin-top:6px;background:linear-gradient(90deg,var(--brand),var(--brand2))}.sub{color:var(--mute);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:6px;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 14px 30px #0002;border-color:var(--brandt)}
+.pic{height:120px;border-radius:12px;background:var(--q2);display:grid;place-items:center;font-size:54px;overflow:hidden}.pic span{display:inline-block;animation:bob 3.2s ease-in-out infinite}.card:hover .pic span{animation:wig .6s}
+.tag{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--brandt)}
+.card h3{margin:0;font-size:18px}.card p{margin:0;color:var(--mute);font-size:14px;flex:1}
+.price{font-weight:800;font-size:18px}.row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.qty button{border:0;background:var(--soft);color:var(--ink);width:32px;height:32px;font-size:18px;cursor:pointer;transition:background .15s}.qty button:hover{background:var(--brand2)}.qty span{min-width:30px;text-align:center;font-weight:700}
+.perks{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.perks span{background:var(--soft);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600;transition:transform .2s}.perks span:hover{transform:scale(1.06) rotate(-1deg)}
+.tips{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin-top:6px}
+.flip{perspective:900px;height:190px;border:0;background:none;padding:0;cursor:pointer;font:inherit;color:inherit;text-align:center}
+.fin{position:relative;width:100%;height:100%;transition:transform .6s;transform-style:preserve-3d}
+.flip.on .fin{transform:rotateY(180deg)}@media(hover:hover){.flip:hover .fin{transform:rotateY(180deg)}}
+.ff,.fb{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;border:1px solid var(--line);padding:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.ff{background:var(--card)}.ff b{font-size:17px}.ff i{font-size:42px;font-style:normal}.ff small{color:var(--mute)}
+.fb{background:var(--brand);color:var(--onb);transform:rotateY(180deg);font-size:14px;line-height:1.45}
+.daily{margin-top:16px;background:var(--soft);border-left:5px solid var(--brand2);border-radius:12px;padding:14px 16px;min-height:64px;transition:opacity .4s}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(400px,100%);background:var(--card);z-index:80;box-shadow:-8px 0 30px #0004;transform:translateX(105%);transition:transform .3s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer.open{transform:none}.dh{display:flex;justify-content:space-between;align-items:center;padding:16px;border-bottom:1px solid var(--line)}.dh h3{margin:0}
+.db{flex:1;overflow:auto;padding:12px 16px}.df{padding:16px;border-top:1px solid var(--line)}
+.ci{display:flex;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);animation:up .35s both}.ci .n{flex:1}.ci small{color:var(--mute)}
+.scrim{position:fixed;inset:0;background:#0006;z-index:70;opacity:0;pointer-events:none;transition:opacity .3s}.scrim.open{opacity:1;pointer-events:auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:16px;animation:up .5s both}
+.two{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:start}@media(max-width:800px){.two{grid-template-columns:1fr}}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--q4);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brandt);box-shadow:0 0 0 3px var(--soft)}
+input[type=checkbox]{width:auto}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:520px){.f2{grid-template-columns:1fr}}
+.err{color:var(--bad);font-size:13px;min-height:16px;margin-top:3px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}.tabs button{border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:9px 14px;border-radius:999px;font:inherit;font-weight:700;cursor:pointer;transition:all .2s}.tabs button.on{background:var(--brand);color:var(--onb);border-color:var(--brandt)}
+.qrbox{display:grid;place-items:center;padding:14px;background:#fff;border-radius:14px;width:fit-content;margin:8px auto;animation:pop .5s both}.qrbox img{display:block;max-width:230px;max-height:260px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)}.kv b{word-break:break-all;text-align:right}
+.note{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:14px;color:var(--mute)}.note.w{color:var(--warn)}
+.tl{list-style:none;margin:16px 0;padding:0}.tl li{position:relative;padding:0 0 20px 34px;color:var(--mute)}.tl li::before{content:"";position:absolute;left:0;top:2px;width:20px;height:20px;border-radius:50%;border:2px solid var(--line);background:var(--card)}
+.tl li::after{content:"";position:absolute;left:9px;top:24px;bottom:-2px;width:2px;background:var(--line)}.tl li:last-child::after{display:none}
+.tl li.done{color:var(--ink);font-weight:600}.tl li.done::before{background:var(--brand);border-color:var(--brandt);animation:pop .5s calc(var(--i)*.25s) both}.tl li.done::after{background:var(--brand)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:800;background:var(--soft)}.p-Pending{color:var(--warn)}.p-Verified{color:var(--ok)}.p-Rejected,.p-Cancelled{color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mute);font-size:12px;text-transform:uppercase}
+td input,td select{padding:7px 8px;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;animation:up .5s both}.stat:nth-child(2){animation-delay:.1s}.stat:nth-child(3){animation-delay:.2s}.stat:nth-child(4){animation-delay:.3s}.stat b{display:block;font-size:24px}.stat span{color:var(--mute);font-size:13px}
+.chart{display:flex;align-items:stretch;gap:10px;height:200px;margin-top:22px;overflow-x:auto}.col{flex:1;min-width:46px;display:flex;flex-direction:column;align-items:center}.bw{flex:1;width:100%;display:flex;align-items:flex-end;justify-content:center}
+.bar{width:60%;max-width:56px;height:var(--h);min-height:3px;background:linear-gradient(180deg,var(--brand2),var(--brand));border-radius:8px 8px 0 0;transform-origin:bottom;animation:grow .9s cubic-bezier(.2,.8,.2,1) both;position:relative}.bar.o{background:linear-gradient(180deg,var(--q3),var(--q4))}
+.bar em{position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:11px;font-style:normal;white-space:nowrap;color:var(--ink)}.col small{font-size:11px;color:var(--mute);margin-top:4px;white-space:nowrap}
+.hbar{height:8px;background:var(--soft);border-radius:8px;overflow:hidden;margin-top:4px}.hbar i{display:block;height:100%;width:var(--w);background:var(--brand);border-radius:8px;transform-origin:left;animation:growx .9s both}
+.invm{position:fixed;inset:0;background:#000a;z-index:90;display:flex;align-items:center;justify-content:center;padding:12px;animation:fade .25s}.invbox{background:var(--card);border-radius:16px;width:min(780px,100%);height:min(92vh,900px);display:flex;flex-direction:column;overflow:hidden}.invbox .row{padding:10px 14px;border-bottom:1px solid var(--line);flex-wrap:wrap}.invbox iframe{flex:1;border:0;background:#fff;width:100%}
+footer{background:var(--foot);border-top:1px solid var(--line);padding:28px 16px;text-align:center;color:var(--footink);font-size:14px}footer a{color:var(--footink)}
+#toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;z-index:100;font-weight:600;display:none;max-width:90%;animation:up .3s both}
+.hide{display:none!important}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s;transition-delay:var(--d,0s)}.js .rv.in{opacity:1;transform:none}
+.okc{font-size:60px;display:inline-block;animation:pop .7s both}.cf{position:fixed;top:-20px;width:9px;height:14px;z-index:95;pointer-events:none;animation:fall linear forwards}
+@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes drop{from{transform:translateY(-100%)}to{transform:none}}@keyframes pop{0%{transform:scale(0);opacity:0}70%{transform:scale(1.2)}100%{transform:scale(1);opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-22px) rotate(12deg)}}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes wig{0%,100%{transform:rotate(0)}25%{transform:rotate(-14deg) scale(1.15)}75%{transform:rotate(14deg) scale(1.15)}}@keyframes sway{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes bg{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}@keyframes shine{to{background-position:200% 0}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 #90AB8Bcc}70%{box-shadow:0 0 0 14px #90AB8B00}100%{box-shadow:0 0 0 0 #90AB8B00}}
+@keyframes bump{50%{transform:scale(1.6)}}@keyframes mq{to{transform:translateX(-50%)}}@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}@keyframes growx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fall{to{transform:translateY(105vh) rotate(720deg)}}
+.pubfl{position:fixed;right:14px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:56;background:var(--card);border:2px solid var(--brand2);border-radius:999px;padding:7px 7px 7px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 6px 18px #0004;font-weight:700;font-size:14px;animation:up .4s both}.pthumb img{width:56px;height:56px;object-fit:cover;border-radius:8px;display:block;margin:4px 0}.pf{cursor:pointer;margin-top:4px}.pic img{width:100%;height:100%;object-fit:cover}.pic[data-view]{cursor:pointer}.pic.big{height:230px}.pdg{display:grid;grid-template-columns:1fr 1.2fr;gap:18px}@media(max-width:640px){.pdg{grid-template-columns:1fr}}
+.mrp{color:var(--mute);font-weight:400;font-size:14px}
+.wa{position:fixed;left:14px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:55;background:var(--brand);color:var(--onb);text-decoration:none;font-weight:800;padding:12px 16px;border-radius:999px;box-shadow:0 6px 18px #0004;display:inline-flex;gap:6px;transition:transform .2s}.wa:hover{transform:translateY(-3px)}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin-bottom:10px}.faq summary{cursor:pointer;font-weight:700}.faq p{margin:8px 0 0;color:var(--mute)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;transition:transform .3s}.step:hover{transform:translateY(-5px)}.step b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--brand);color:var(--onb);margin-bottom:6px}.step p{margin:4px 0 0;color:var(--mute);font-size:14px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}.gal img{width:100%;height:150px;object-fit:cover;border-radius:14px;transition:transform .3s}.gal img:hover{transform:scale(1.04)}
+.revs{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.rev{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.rev .stars{color:var(--brand2);letter-spacing:2px}.rev p{margin:6px 0;color:var(--mute)}
+.pinb{display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:var(--soft);border-radius:14px;padding:12px 16px;margin:14px 0}.pinb input{width:150px}
+.fbar{height:8px;background:var(--soft);border-radius:8px;overflow:hidden;margin:6px 0 10px}.fbar i{display:block;height:100%;background:var(--brand2);border-radius:8px;transition:width .5s}
+.legal h3{margin:20px 0 4px}.legal p,.legal li{color:var(--mute)}.mb{flex:1;min-height:0;overflow:auto;padding:16px}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 6px}.cats a.chip{text-decoration:none;color:var(--ink);transition:background .2s,color .2s,transform .2s}.cats a.chip:hover{background:var(--brand);color:var(--onb);transform:translateY(-2px)}
+#wsBtn{white-space:nowrap}.topbar{background:var(--dk);color:var(--q1);font-size:13px;font-weight:600;text-align:center;padding:7px 12px;display:flex;gap:6px 22px;justify-content:center;flex-wrap:wrap}
+.sbox{position:relative;flex:1 1 220px;max-width:340px}.sbox input{border-radius:999px;padding:9px 16px}.sres{position:absolute;top:calc(100% + 6px);left:0;right:0;min-width:280px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px #0003;max-height:60vh;overflow:auto;z-index:70}.sr{display:flex;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)}.sr span{flex:1;font-size:14px}.sr:last-child{border:0}
+.trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:14px 0}.tr{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}.tr i{font-style:normal;font-size:28px}.tr b{display:block;font-size:14px}.tr small{color:var(--mute)}
+.ctiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;margin-bottom:8px}.ctile{display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 8px;transition:transform .25s,box-shadow .25s,border-color .25s}.ctile .ce{font-size:34px;transition:transform .3s}.ctile b{font-size:13px;line-height:1.25}.ctile small{color:var(--mute)}
+.ctile:hover{transform:translateY(-6px);box-shadow:0 12px 24px #0002;border-color:var(--brand3)}.ctile:hover .ce{transform:scale(1.2) rotate(-6deg)}
+.hrow{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x proximity;padding:4px 2px 12px}.hrow .card{min-width:220px;flex:0 0 220px;scroll-snap-align:start}
+.pic{position:relative}.bdg{position:absolute;top:8px;left:8px;background:var(--dk);color:var(--q1);font-size:11px;font-weight:800;padding:3px 9px;border-radius:999px;letter-spacing:.03em;z-index:1}.bdg.off{left:auto;right:8px;background:var(--g);color:#fff}
+.two>*,.grid>*{min-width:0}
+@media(max-width:640px){.hm{display:none}.sbox{order:2;flex:1 1 100%;max-width:none}.hrow .card{min-width:180px;flex-basis:180px}.hd{padding:8px 12px;gap:4px 8px}.logo{font-size:17px}nav{order:3;width:100%;flex-wrap:nowrap;overflow-x:auto;gap:2px;padding:0 0 4px;scrollbar-width:none}nav::-webkit-scrollbar{display:none}nav a{white-space:nowrap;font-size:13px;padding:6px 11px}#cartBtn{padding:8px 14px;font-size:14px}html{scroll-padding-top:calc(104px + env(safe-area-inset-top,0px))}.hero{padding:40px 14px}.fl{font-size:24px!important;opacity:.35}h2{font-size:24px}.wrap{padding:16px 12px 48px}.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}.panel{padding:14px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+<meta property="og:title" content="Suprakan Foods — Organic Cold-Pressed Oils & Millet Foods"><meta property="og:description" content="100% organic, cold-pressed, chemical-free oils and millet foods from Rasipuram, Tamil Nadu."><meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Suprakan Foods","telephone":"+91 9500098678","address":{"@type":"PostalAddress","addressLocality":"Rasipuram","addressRegion":"Tamil Nadu","addressCountry":"IN"},"description":"Organic cold-pressed oils and millet foods"}</script>
+</head>
+<body>
+<div class="topbar" id="topbar"></div>
+<header><div class="hd">
+<a class="logo" href="#top"><span>🌾</span> Suprakan Foods</a>
+<div class="sbox"><input id="sq" type="search" placeholder="Search products…" aria-label="Search products" autocomplete="off"><div id="sres" class="sres hide"></div></div>
+<nav id="nav"></nav><a class="btn alt sm" id="wsBtn" href="#wholesale">📦 Wholesale<span class="hm"> enquiry</span></a>
+<button class="btn" id="cartBtn" aria-label="Open cart"><span id="cartLbl">🛒 Cart</span> <span class="badge" id="cartCount">0</span></button>
+</div></header>
+<main id="app" class="wrap"></main>
+<footer>
+<p><b>Suprakan Foods</b> · Organic cold-pressed oils and millet foods</p>
+<p id="fcontact">📞 +91 9500098678 · Rasipuram, Tamil Nadu</p>
+<p id="ffssai"></p>
+<p id="flinks"></p><p>© 2026 Suprakanfoods and SVM Millets.</p>
+</footer>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping cart">
+<div class="dh"><h3 id="cartT">Your cart</h3><button class="btn alt sm" id="closeCart">Close</button></div>
+<div class="db" id="cartBody"></div>
+<div class="df" id="cartFoot"></div>
+</aside>
+<div class="invm hide" id="invm"><div class="invbox"><div class="row"><b>Invoice</b><div><button class="btn sm" data-invdl>⬇ Download</button> <button class="btn alt sm" data-invpr>🖨 Print / Save as PDF</button> <button class="btn alt sm" data-invx>Close</button></div></div><iframe id="invf" title="Invoice"></iframe></div></div>
+<div class="invm hide" id="certm"><div class="invbox" style="height:auto;max-height:92vh"><div class="row"><b>FSSAI certificate</b><button class="btn alt sm" data-certx>Close</button></div><div style="overflow:auto;padding:12px;text-align:center;background:#fff"><img id="certimg" alt="FSSAI certificate"></div></div></div>
+<div class="pubfl hide" id="pubfl"><span>🟡 Unpublished changes</span><button class="btn sm" data-publish>Save &amp; Publish</button></div>
+<a class="wa" id="waBtn" target="_blank" rel="noopener" href="#">💬 <span>WhatsApp</span></a>
+<div class="invm hide" id="pm"><div class="invbox" style="height:auto;max-height:92vh"><div class="row"><b id="pmt">Product</b><button class="btn alt sm" data-pmx>Close</button></div><div class="mb" id="pmb"></div></div></div>
+<div class="invm hide" id="pdm"><div class="invbox" style="height:auto;max-height:92vh"><div class="row"><b>Product details &amp; photo</b><button class="btn alt sm" data-pdx>Close</button></div><div class="mb" id="pdb"></div></div></div>
+<div id="toast" role="status"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+"use strict";
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const mem={};
+const S={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return k in mem?mem[k]:d}},del(k){delete mem[k];try{localStorage.removeItem(k)}catch(e){}},set(k,v){mem[k]=v;try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){toast("Storage is full or blocked — changes may not be saved");return false}}};
+const inr=n=>"₹"+Number(n).toLocaleString("en-IN");
+const fd=(t,o)=>new Date(t).toLocaleDateString("en-IN",o||{day:"numeric",month:"short",year:"numeric"});
+let io=null;try{if("IntersectionObserver"in window){document.documentElement.classList.add("js");io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12})}}catch(e){io=null}
+const reveal=()=>{$$(".rv").forEach(el=>io?io.observe(el):el.classList.add("in"))};
+
+/* ---------- language ---------- */
+const LANG="en";
+const T=k=>k;
+function applyLang(){document.documentElement.lang=LANG==="ta"?"ta":"en";
+$("#nav").innerHTML=[["#oils","Oils"],["#millets","Millets"],["#tips","Nutrition"],["#story","Our story"],["#track","Track order"]].map(a=>`<a href="${a[0]}">${T(a[1])}</a>`).join("");
+$("#cartLbl").textContent=T("🛒 Cart");
+$("#flinks").innerHTML=[["#privacy","Privacy"],["#terms","Terms"],["#shipping","Shipping"],["#returns","Returns"],["#wholesale","Wholesale"]].map(a=>`<a href="${a[0]}">${T(a[1])}</a>`).join(" · ")+' · <a href="#admin">Admin</a>'}
+
+/* ---------- data ---------- */
+const DEFP=[
+{id:"gn",cat:"oil",name:"Groundnut Oil",tag:"Standard",desc:"Nutty & full-bodied, ideal for everyday cooking",size:"1L",price:350,e:"🥜"},
+{id:"bs",cat:"oil",name:"Black Sesame Oil",tag:"Standard",desc:"Deep, roasted aroma with a rich dark colour",size:"1L",price:470,e:"⚫"},
+{id:"gi",cat:"oil",name:"Gingelly Oil",tag:"Standard",desc:"Traditional til oil for rasam, pickling & more",size:"1L",price:444,e:"🫙"},
+{id:"co",cat:"oil",name:"Coconut Oil",tag:"Standard",desc:"Light, clean-tasting oil pressed from fresh copra",size:"1L",price:490,e:"🥥"},
+{id:"mp",cat:"millet",name:"Multi Millet Pasta",tag:"Millet Pasta",desc:"Millet penne that cooks up firm and holds sauce beautifully",size:"180g",price:120,e:"🍝"},
+{id:"mv",cat:"millet",name:"Multi Millet Vermicelli",tag:"Millet Vermicelli",desc:"Steamed and dried millet sevai, ready for upma in under ten minutes",size:"180g",price:130,e:"🍜"},
+{id:"lc",cat:"millet",name:"Little Millet Cookies",tag:"Millet Biscuits",desc:"Crunchy, jaggery-sweetened cookies made from little millet flour",size:"150g",price:180,e:"🍪"},
+{"id":"ck1","cat":"cookies","name":"Foxtail Millet Cookies - Pet Jar","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"150g","price":80,"e":"🍪"},
+{"id":"ck2","cat":"cookies","name":"Little Millet Cookies - Pet Jar","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"150g","price":80,"e":"🍪"},
+{"id":"ck3","cat":"cookies","name":"Butter Cookies","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"1 pack","price":60,"e":"🍪"},
+{"id":"ck4","cat":"cookies","name":"Jar Cookies - Foxtail Millet","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Jar","price":300,"e":"🍪"},
+{"id":"ck5","cat":"cookies","name":"Jar Cookies - Navagrain Millet","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Jar","price":300,"e":"🍪"},
+{"id":"ck6","cat":"cookies","name":"Jar Cookies - Barnyard Millet","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Jar","price":300,"e":"🍪"},
+{"id":"ck7","cat":"cookies","name":"Jar Cookies - Pearl Millet","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Jar","price":300,"e":"🍪"},
+{"id":"ck8","cat":"cookies","name":"Gluten Free Millet Cookies - Mono Carton Pack","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Carton pack","price":49,"mrp":50,"e":"🍪"},
+{"id":"ck9","cat":"cookies","name":"Palm Sugar Millet Cookies - Mono Carton Pack","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Carton pack","price":58,"mrp":60,"e":"🍪"},
+{"id":"ck10","cat":"cookies","name":"Little Millet Cookies - Mono Carton Pack","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Carton pack","price":58,"mrp":60,"e":"🍪"},
+{"id":"ck11","cat":"cookies","name":"Foxtail With Honey Cookies - Mono Carton Pack","tag":"Millet Cookies","desc":"Crunchy millet cookies.","size":"Carton pack","price":60,"e":"🍪"},
+{"id":"pa1","cat":"pasta","name":"Little Millet Macaroni Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"pa2","cat":"pasta","name":"Multi Millet Macaroni Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"pa3","cat":"pasta","name":"Little Millet Penne Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"pa4","cat":"pasta","name":"Foxtail Millet Macaroni Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"pa5","cat":"pasta","name":"Multi Millet Penne Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"pa6","cat":"pasta","name":"Barnyard Millet Spiral Pasta","tag":"Millet Pasta","desc":"Millet-based pasta in a classic shape for your favourite sauces.","size":"1 pack","price":80,"e":"🍝"},
+{"id":"nd1","cat":"noodles","name":"Foxtail Millet Instant Noodles","tag":"Millet Noodles","desc":"Quick-cook millet instant noodles.","size":"1 pack","price":30,"e":"🍜"},
+{"id":"nd2","cat":"noodles","name":"Multi Millet Instant Noodles","tag":"Millet Noodles","desc":"Quick-cook millet instant noodles.","size":"1 pack","price":30,"e":"🍜","badge":"NEW"},
+{"id":"nd3","cat":"noodles","name":"Navagrain Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd4","cat":"noodles","name":"Ragi Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd5","cat":"noodles","name":"Foxtail Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd6","cat":"noodles","name":"Little Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd7","cat":"noodles","name":"Barnyard Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd8","cat":"noodles","name":"Pearl Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd9","cat":"noodles","name":"Kodo Millet Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"nd10","cat":"noodles","name":"Sorghum Noodles With Masala","tag":"Millet Noodles","desc":"Millet noodles that come with a masala seasoning mix.","size":"1 pack","price":80,"e":"🍜"},
+{"id":"sv1","cat":"sevai","name":"Little Millet Sevai","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv2","cat":"sevai","name":"Foxtail Millet Sevai","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv3","cat":"sevai","name":"Pearl Millet Vermicelli","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv4","cat":"sevai","name":"Sorghum Millet Sevai","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv5","cat":"sevai","name":"Wheat Millet Sevai","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv6","cat":"sevai","name":"Ragi Millet Sevai","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv7","cat":"sevai","name":"Kodo Millet Vermicelli","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"sv8","cat":"sevai","name":"Horse Gram Vermicelli","tag":"Millet Sevai","desc":"Traditional sevai / vermicelli, ready for upma, kheer and more.","size":"1 pack","price":55,"e":"🍚"},
+{"id":"ch1","cat":"chikkies","name":"Ragi Millet Chikkies","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"1 pack","price":25,"e":"🥜","badge":"NEW"},
+{"id":"ch2","cat":"chikkies","name":"Pearl Millet Chikkies","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"1 pack","price":25,"e":"🥜","badge":"NEW"},
+{"id":"ch3","cat":"chikkies","name":"Finger Millet Mixed Chikkies","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"1 pack","price":35,"e":"🥜"},
+{"id":"ch4","cat":"chikkies","name":"Pearl Millet Mixed Chikkies","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"1 pack","price":35,"e":"🥜","badge":"HOT SALE"},
+{"id":"ch5","cat":"chikkies","name":"Jar Chikkies - Ragi (Finger) Millet","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"Jar","price":300,"e":"🥜"},
+{"id":"ch6","cat":"chikkies","name":"Jar Chikkies - Pearl Millet","tag":"Millet Chikkies","desc":"Traditional chikki bar made with millet.","size":"Jar","price":300,"e":"🥜"},
+{"id":"cr1","cat":"crunchy","name":"Finger Millet Sweet Pops - Peanut Balls","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"1 pack","price":30,"e":"🍘"},
+{"id":"cr2","cat":"crunchy","name":"Foxtail Millet Sweet Pops - Coconut Buds","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"1 pack","price":30,"e":"🍘"},
+{"id":"cr3","cat":"crunchy","name":"Barnyard Millet Sweet Pops - Almond Hearts","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"1 pack","price":30,"e":"🍘"},
+{"id":"cr4","cat":"crunchy","name":"Little Millet Sweet Pops - Choco Hearts","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"1 pack","price":35,"e":"🍘"},
+{"id":"cr5","cat":"crunchy","name":"Foxtail Millet Sweet Pops - Coconut Buds","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"70g jar","price":70,"e":"🍘"},
+{"id":"cr6","cat":"crunchy","name":"Finger Millet Sweet Pops - Peanut Balls","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"Jar","price":70,"e":"🍘"},
+{"id":"cr7","cat":"crunchy","name":"Little Millet Sweet Pops - Choco Hearts","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"Jar","price":85,"e":"🍘"},
+{"id":"cr8","cat":"crunchy","name":"Barnyard Millet Sweet Pops - Almond Hearts","tag":"Millet Sweet Pops","desc":"Crunchy, bite-sized millet sweet pops.","size":"Value pack","price":64,"mrp":80,"e":"🍘"},
+{"id":"cs1","cat":"crispy","name":"Little Millet Crispy - Tomato","tag":"Millet Crispy","desc":"Light, crispy millet snack.","size":"1 pack","price":30,"e":"🥨","badge":"HOT SALE"},
+{"id":"cs2","cat":"crispy","name":"Barnyard Millet Crispy - Masala","tag":"Millet Crispy","desc":"Light, crispy millet snack.","size":"1 pack","price":30,"e":"🥨","badge":"HOT SALE"},
+{"id":"cs3","cat":"crispy","name":"Little Millet Crispy - Cheese Mint","tag":"Millet Crispy","desc":"Light, crispy millet snack.","size":"1 pack","price":30,"e":"🥨","badge":"HOT SALE"},
+{"id":"ru1","cat":"rusk","name":"Navagrain Millet Rusk","tag":"Millet Rusk","desc":"Crunchy millet rusk, lovely with tea or coffee.","size":"1 pack","price":40,"e":"🍞","badge":"HOT SALE"},
+{"id":"ru2","cat":"rusk","name":"Foxtail Millet Rusk","tag":"Millet Rusk","desc":"Crunchy millet rusk, lovely with tea or coffee.","size":"1 pack","price":40,"e":"🍞","badge":"HOT SALE"},
+{"id":"ru3","cat":"rusk","name":"Little Millet Rusk","tag":"Millet Rusk","desc":"Crunchy millet rusk, lovely with tea or coffee.","size":"1 pack","price":40,"e":"🍞","badge":"HOT SALE"},
+{"id":"ru4","cat":"rusk","name":"Barnyard Millet Rusk","tag":"Millet Rusk","desc":"Crunchy millet rusk, lovely with tea or coffee.","size":"1 pack","price":40,"e":"🍞","badge":"HOT SALE"},
+{"id":"jg1","cat":"jaggery","name":"Palm Sugar Powder","tag":"Natural Sweetener","desc":"Unrefined natural sweetener in powder form.","size":"200g","price":110,"e":"🍯"},
+{"id":"jg2","cat":"jaggery","name":"Coconut Sugar Powder","tag":"Natural Sweetener","desc":"Unrefined natural sweetener in powder form.","size":"200g","price":110,"e":"🍯"},
+{"id":"jg3","cat":"jaggery","name":"Organic Jaggery Powder","tag":"Natural Sweetener","desc":"Unrefined natural sweetener in powder form.","size":"200g","price":24,"e":"🍯"},
+{"id":"jg4","cat":"jaggery","name":"Unrefined Cane Sugar Powder","tag":"Natural Sweetener","desc":"Unrefined natural sweetener in powder form.","size":"200g","price":24,"e":"🍯"},
+{"id":"cb1","cat":"combo","name":"Kids Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":281,"e":"🎁"},
+{"id":"cb2","cat":"combo","name":"Family Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":858,"e":"🎁"},
+{"id":"cb3","cat":"combo","name":"Evening Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":199,"e":"🎁"},
+{"id":"cb4","cat":"combo","name":"Morning Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":165,"e":"🎁"},
+{"id":"cb5","cat":"combo","name":"Healthy Travel Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":373,"e":"🎁"},
+{"id":"cb6","cat":"combo","name":"Diabetic Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":490,"e":"🎁"},
+{"id":"cb7","cat":"combo","name":"Women's Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":393,"e":"🎁"},
+{"id":"cb8","cat":"combo","name":"Fitness Snacks Combo Pack","tag":"Combo","desc":"A value combo of assorted millet snacks.","size":"Combo","price":238,"e":"🎁"}];
+(function migrate(){const v=S.get("sf_catver",0);if(v>=3)return;
+const OLD=["gn","bs","gi","co","mp","mv","lc"],add=DEFP.filter(p=>OLD.indexOf(p.id)<0);
+["sf_prod2","sf_prod2_d"].forEach(k=>{const a=S.get(k,null);if(Array.isArray(a)&&a.length){const ids=a.map(p=>p.id);add.forEach(p=>{if(ids.indexOf(p.id)<0)a.push({...p})});a.forEach(p=>{const d=DEFP.find(x=>x.id===p.id);if(d&&d.badge&&!("badge" in p))p.badge=d.badge});S.set(k,a)}});
+["sf_cfg","sf_cfg_d"].forEach(k=>{const c=S.get(k,null);if(c&&c.biz){if(/9600511182/.test(c.biz.phone||""))c.biz.phone="+91 9500098678";if(/9600511182/.test(c.biz.whatsapp||""))c.biz.whatsapp="919500098678";S.set(k,c)}});
+S.set("sf_catver",3)})();
+let ctx="live";const kc=()=>ctx==="draft"?"sf_cfg_d":"sf_cfg",kp=()=>ctx==="draft"?"sf_prod2_d":"sf_prod2";
+let P=[];
+function loadP(){let x=S.get(kp(),null);if(!Array.isArray(x)||!x.length)x=S.get("sf_prod2",null);P=Array.isArray(x)&&x.length?x:DEFP.map(p=>({...p}))}
+loadP();
+const saveP=()=>{S.set(kp(),P);refreshPub()};
+const byId=id=>P.find(p=>p.id===id);
+const CATS={oil:["Standard Organic Oils","Cold-pressed the traditional way, straight from the mill to your kitchen.","oils","🫙"],millet:["Wholesome Millet Foods","Better nutrition, better life — pasta, vermicelli and cookies built from multi-millet flour.","millets","🌾"],cookies:["Millet Cookies","Crunchy millet cookies in jars and cartons.","cookies","🍪"],pasta:["Millet Pasta","Macaroni, penne and spiral pasta made from millets.","pasta","🍝"],noodles:["Millet Noodles","Instant noodles and masala noodles made from millets.","noodles","🍜"],sevai:["Millet Sevai & Vermicelli","Traditional sevai and vermicelli in many different millets.","sevai","🍚"],chikkies:["Millet Chikkies","Traditional chikki bars made with millets.","chikkies","🥜"],crunchy:["Millet Sweet Pops","Crunchy, bite-sized sweet pops.","crunchy","🍘"],crispy:["Millet Crispy","Light and crispy savoury snacks.","crispy","🥨"],rusk:["Millet Rusk","The perfect tea-time companion.","rusk","🍞"],jaggery:["Natural Jaggery & Sugars","Unrefined natural sweeteners.","jaggery","🍯"],combo:["Combo Packs","Great-value bundles of our favourites.","combos","🎁"]};
+const TIPS=[
+["🥜","Groundnut oil","A source of vitamin E and mostly unsaturated fats. Its mild nutty taste suits everyday sautéing and frying."],
+["⚫","Sesame oils","Sesame oil naturally contains antioxidant compounds (sesamin) and vitamin E. Gingelly is lovely for rasam tempering and pickles."],
+["🥥","Coconut oil","Rich in medium-chain fats, but also high in saturated fat — enjoy it in moderation as part of a varied diet."],
+["🌾","Millets & fibre","Millets are whole grains with more dietary fibre than polished rice, plus minerals like magnesium and iron."],
+["🍝","Gluten-free swap","Millet pasta and sevai are naturally gluten-free grains. Check the pack for the full ingredient list if you have allergies."],
+["☀️","Store it right","Keep oils in a cool, dark place with the cap tight. Light and heat make oils go stale faster."]];
+const DAILY=["Rotate your cooking oils through the week — different oils bring different nutrients.","Pair millets with dal or vegetables for a complete, filling meal.","Cold-pressed oils keep more of their natural aroma, so you often need less per dish.","Soak millets 20–30 minutes before cooking for a softer texture.","Don't reuse frying oil many times — fresh oil tastes better and is kinder to your diet.","Add a spoon of gingelly oil to warm rice and pickle for a classic South Indian comfort meal."];
+const DEF={upi:"suprakanfoods@upi",payee:"Suprakan Foods",bank:{holder:"Suprakan Foods",acc:"0000000000",ifsc:"XXXX0000000",name:"Your Bank",branch:"Rasipuram"},ship:0,biz:{name:"Suprakan Foods",addr:"Rasipuram, Tamil Nadu",phone:"+91 9500098678",email:"",gstin:"",fssai:"",whatsapp:"919500098678",retHrs:48,note:"Thank you for choosing Suprakan Foods!"},pw:"Suprakan@2026"};
+const cfg=()=>{const c=(ctx==="draft"&&S.get("sf_cfg_d",null))||S.get("sf_cfg",{});return{upi:c.upi||DEF.upi,payee:c.payee||DEF.payee,bank:{...DEF.bank,...(c.bank||{})},biz:{...DEF.biz,...(c.biz||{})},ship:c.ship==null?DEF.ship:c.ship,qrImg:c.qrImg||"",fssaiImg:c.fssaiImg||"",pins:c.pins||"",free:c.free||0,reviews:Array.isArray(c.reviews)?c.reviews:[],gallery:Array.isArray(c.gallery)?c.gallery:[],admins:Array.isArray(c.admins)?c.admins:[]}};
+const patchCfg=(fn,liveNow)=>{const k=liveNow?"sf_cfg":kc();const c=S.get(k,null)||S.get("sf_cfg",{});fn(c);S.set(k,c);if(!liveNow)refreshPub()};
+let cart=S.get("sf_cart",{});
+const orders=()=>S.get("sf_orders",[]).map(o=>{if(o.status==="Shipped"||o.status==="Delivered")o.status="Dispatched";return o});
+const saveOrders=a=>S.set("sf_orders",a);
+const live=id=>{const p=byId(id);return p&&p.avail!==false?p:null};
+Object.keys(cart).forEach(k=>{if(!live(k)||!(cart[k]>0))delete cart[k]});
+const sub=()=>Object.keys(cart).reduce((s,k)=>s+(live(k)?live(k).price*cart[k]:0),0);
+const shipOf=s=>{const c=cfg();return c.free>0&&s>=c.free?0:c.ship};
+const pinOk=pin=>{const l=cfg().pins.split(/[\s,]+/).filter(Boolean);return!l.length||l.some(x=>pin.indexOf(x)===0)};
+const saveCart=()=>{S.set("sf_cart",cart);count()};
+function count(){const n=Object.keys(cart).filter(live).reduce((s,k)=>s+cart[k],0),b=$("#cartCount");if(b.textContent!==String(n)){b.textContent=n;b.classList.remove("bump");void b.offsetWidth;b.classList.add("bump")}}
+let toastT;function toast(m){const t=$("#toast");t.textContent=m;t.style.display="block";clearTimeout(toastT);toastT=setTimeout(()=>{t.style.display="none"},2400)}
+
+/* ---------- cart ---------- */
+function setQty(id,q){if(!live(id))return;q=Math.max(0,Math.min(20,q|0));if(q===0)delete cart[id];else cart[id]=q;saveCart();drawCart();syncCards()}
+const qtyHtml=id=>`<div class="qty"><button data-q="${id}" data-d="-1" aria-label="Decrease">−</button><span>${cart[id]||0}</span><button data-q="${id}" data-d="1" aria-label="Increase">+</button></div>`;
+function drawCart(){const b=$("#cartBody"),f=$("#cartFoot"),ids=Object.keys(cart).filter(live);
+if(!ids.length){b.innerHTML=`<p class="sub" style="padding:20px 0">${T("Your cart is empty. Add some oils or millet foods! 🌾")}</p>`;f.innerHTML=`<button class="btn" style="width:100%" data-close>${T("Continue shopping")}</button>`;return}
+b.innerHTML=ids.map(id=>{const p=byId(id);return`<div class="ci"><div class="n"><b>${esc(p.name)}</b><br><small>${esc(p.size)} · ${inr(p.price)}</small></div>${qtyHtml(id)}<b>${inr(p.price*cart[id])}</b></div>`}).join("");
+const s=sub(),fr=cfg().free;let msg='<p class="sub" style="margin:4px 0 12px;font-size:13px">Delivery charge, if any, is added at checkout.</p>';
+if(fr>0)msg=s>=fr?`<p class="sub" style="margin:8px 0 12px;font-size:13px">🎉 ${LANG==="ta"?"இலவச டெலிவரி கிடைத்தது!":"You've unlocked free delivery!"}</p>`:`<div class="fbar"><i style="width:${Math.round(s/fr*100)}%"></i></div><p class="sub" style="margin:0 0 12px;font-size:13px">${LANG==="ta"?"இலவச டெலிவரிக்கு இன்னும் "+inr(fr-s)+" சேர்க்கவும்":"Add "+inr(fr-s)+" more for free delivery"}</p>`;
+f.innerHTML=`<div class="row"><span>${T("Subtotal")}</span><b>${inr(s)}</b></div>${msg}<button class="btn pulse" style="width:100%" id="goPay">${T("Proceed to payment →")}</button>`}
+function openCart(o){$("#cartT").textContent=T("Your cart");$("#closeCart").textContent=T("Close");$("#drawer").classList.toggle("open",o);$("#scrim").classList.toggle("open",o);if(o)drawCart()}
+function syncCards(){$$("[data-slot]").forEach(el=>{const id=el.getAttribute("data-slot");el.innerHTML=cart[id]?qtyHtml(id):`<button class="btn sm" data-add="${id}">${T("Add to cart")}</button>`})}
+
+/* ---------- shop ---------- */
+let tipTimer=null,tipI=0,shopCtx="live";
+const bdgHtml=p=>(p.badge?`<span class="bdg">${esc(p.badge)}</span>`:"")+(p.mrp>p.price?`<span class="bdg off">${Math.round((1-p.price/p.mrp)*100)}% OFF</span>`:"");
+const cardHtml=(p,i)=>`<div class="card rv" style="--d:${(i%4)*.08}s"><div class="pic" data-view="${esc(p.id)}">${p.img?`<img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy">`:`<span style="animation-delay:${-i*.4}s">${esc(p.e||"🌾")}</span>`}${bdgHtml(p)}</div><span class="tag">${esc(p.tag||"")}</span><h3>${esc(p.name)}</h3><p>${esc(p.desc||"")}</p><div class="row"><span class="price">${esc(p.size)} · ${inr(p.price)}${p.mrp>p.price?` <s class="mrp">${inr(p.mrp)}</s>`:""}</span></div><div class="row"><div data-slot="${esc(p.id)}"></div><button class="btn alt sm" data-view="${esc(p.id)}">${T("Details")}</button></div></div>`;
+function faqHtml(){const c=cfg(),b=c.biz,q=[
+["How do I pay?","Choose QR code, UPI ID or bank transfer at checkout, make the payment, then enter the reference (UTR) number. We verify it and confirm your order."],
+["How long does delivery take?","Once your order is dispatched, delivery usually takes 5–7 days."],
+["How can I track my order?","Use the Track order page with your Order ID and mobile number, or message us on WhatsApp for any update."],
+["Do you deliver to my area?","Use the PIN code checker on this page. If your area isn't covered yet, message us on WhatsApp and we'll see what we can do."]];
+if(b.fssai)q.push(["Are your products FSSAI licensed?","Yes. Our FSSAI licence number is "+b.fssai+"."]);
+q.push(["What if my order arrives damaged?","Message us on WhatsApp within "+b.retHrs+" hours of delivery with a photo, and we'll arrange a replacement or refund after checking."],["How should I store the oil?","Keep it tightly capped in a cool, dark place away from direct sunlight."],["Do you sell in bulk?",'Yes — please send a <a href="#wholesale">wholesale enquiry</a>.']);
+return q.map(x=>`<details class="faq rv"><summary>${esc(x[0])}</summary><p>${x[1].indexOf("<a ")>-1?x[1]:esc(x[1])}</p></details>`).join("")}
+function shop(){shopCtx=ctx;
+const c=cfg(),fs=c.biz.fssai;
+const bn=["🌾 100% Organic","💧 Cold Pressed","🚫 Chemical Free","🧡 Goodness for Life","🌾 Gluten-free millets","❤ Heart-friendly oils","📍 From Rasipuram, Tamil Nadu"].concat(fs?["🏅 FSSAI Lic. No. "+fs]:[]);
+const mq=bn.concat(bn).map(x=>`<span>${x}</span>`).join("");
+let h=`<div id="top" class="hero"><span class="fl f1">🌾</span><span class="fl f2x">🥜</span><span class="fl f3">🌻</span><span class="fl f4">🥥</span><span class="fl f5">🫙</span><div class="chips"><span class="chip">100% Organic</span><span class="chip">Cold Pressed</span><span class="chip">Chemical Free</span><span class="chip">Goodness for Life</span>${fs?'<span class="chip">🏅 FSSAI Licensed</span>':""}</div><h1><em>${T("Pure by Nature,")}</em><br>${T("Goodness in Every Drop!")}</h1><p>${T("100% Organic. Cold Pressed. Unrefined. Chemical Free.")}</p><div class="acts"><a class="btn pulse" href="#oils">${T("Shop the oils →")}</a> <a class="btn alt" href="#millets">${T("Shop the millets")}</a></div></div><div class="mq" aria-hidden="true"><div class="mqt">${mq}</div></div>
+<div class="trust rv">${[["🌾","Pure & natural","Cold-pressed oils & millet foods"],["🔒","Secure payment","UPI, QR or bank transfer"],["🔁","Easy replacement","If your order arrives damaged"],["🚚","Delivery in 5–7 days","After your order is dispatched"]].map(x=>`<div class="tr"><i>${x[0]}</i><div><b>${x[1]}</b><small>${x[2]}</small></div></div>`).join("")}</div>
+<h2 class="rv" style="margin-top:22px">${T("Shop by category")}</h2><div class="ctiles">${Object.keys(CATS).filter(k=>P.some(p=>p.cat===k&&p.avail!==false)).map((k,i)=>`<a class="ctile rv" style="--d:${(i%6)*.05}s" href="#${CATS[k][2]}"><span class="ce">${CATS[k][3]}</span><b>${T(CATS[k][0])}</b><small>${P.filter(p=>p.cat===k&&p.avail!==false).length} items</small></a>`).join("")}</div>
+<div class="pinb"><b>📍 ${T("Check delivery to your PIN code")}</b><input id="pinq" inputmode="numeric" maxlength="6" placeholder="6-digit PIN" aria-label="PIN code"><button class="btn sm" data-pincheck>${T("Check")}</button><span id="pinr" aria-live="polite"></span></div>`;
+const nw=P.filter(p=>p.avail!==false&&p.badge==="NEW"),bs=P.filter(p=>p.avail!==false&&(p.badge==="HOT SALE"||p.badge==="BESTSELLER"));
+if(nw.length)h+=`<h2 class="rv">🆕 ${T("New arrivals")}</h2><div class="hrow">${nw.map(cardHtml).join("")}</div>`;
+if(bs.length)h+=`<h2 class="rv">🔥 ${T("Bestsellers")}</h2><div class="hrow">${bs.map(cardHtml).join("")}</div>`;
+Object.keys(CATS).forEach(cat=>{const l=P.filter(p=>p.cat===cat&&p.avail!==false);if(!l.length)return;
+h+=`<h2 class="rv" id="${CATS[cat][2]}">${T(CATS[cat][0])}</h2><p class="sub rv">${CATS[cat][1]}</p><div class="grid">${l.map(cardHtml).join("")}</div>`;
+if(cat==="oil")h+='<div class="perks rv"><span>🌾 Tradition in every bottle, health in every meal</span><span>Boosts Immunity*</span><span>Heart Healthy*</span><span>Rich in Nutrients</span><span>Ideal for Daily Cooking</span></div>';
+if(cat==="millet")h+='<div class="perks rv"><span>Rich in Fiber</span><span>Gluten Free</span><span>No Maida, No Preservatives</span><span>Good for All Ages</span></div>'});
+h+=`<h2 class="rv" id="tips">${T("Nutrition corner")}</h2><p class="sub rv">Tap or hover a card to flip it. General nutrition information, not medical advice.</p><div class="tips">${TIPS.map((t,i)=>`<button class="flip rv" style="--d:${i*.07}s" aria-label="${esc(t[1])} tip"><div class="fin"><div class="ff"><i>${t[0]}</i><b>${esc(t[1])}</b><small>Tap to learn</small></div><div class="fb">${esc(t[2])}</div></div></button>`).join("")}</div><div class="daily rv" id="daily" aria-live="polite">💡 <b>Tip of the day:</b> <span id="dtxt">${esc(DAILY[0])}</span></div>`;
+const steps=[["Careful selection","We choose quality seeds, nuts, copra and millets as our raw ingredients."],["Slow cold pressing","Pressed slowly without added chemicals, keeping the natural aroma and goodness."],["Natural filtering","Oil is settled and filtered naturally — not chemically refined."],["Packed fresh","Packed in clean bottles and sent to your door."]];
+h+=`<h2 class="rv" id="story">${T("How we make it")}</h2><p class="sub rv">From Rasipuram, Tamil Nadu — pure by nature, goodness in every drop.</p><div class="steps">${steps.map((x,i)=>`<div class="step rv" style="--d:${i*.1}s"><b>${i+1}</b><br><strong>${x[0]}</strong><p>${x[1]}</p></div>`).join("")}</div>`;
+if(c.gallery.length)h+=`<h2 class="rv">${T("Inside our mill")}</h2><div class="gal">${c.gallery.map((u,i)=>`<img class="rv" style="--d:${i*.08}s" src="${esc(u)}" alt="Suprakan Foods photo ${i+1}" loading="lazy">`).join("")}</div>`;
+if(c.reviews.length)h+=`<h2 class="rv">${T("Customer reviews")}</h2><div class="revs">${c.reviews.map((r,i)=>`<div class="rev rv" style="--d:${i*.08}s"><div class="stars" aria-label="${r.s} stars">${"★".repeat(r.s)}</div><p>“${esc(r.t)}”</p><b>${esc(r.n)}</b></div>`).join("")}</div>`;
+h+=`<h2 class="rv">${T("Frequently asked questions")}</h2>${faqHtml()}`;
+h+=`<div class="panel rv" style="text-align:center;margin-top:36px"><h2 style="margin:0 0 8px">${T("Eat Healthy. Live Better. Choose Suprakanfoods!")}</h2><a class="btn pulse" href="#oils">${T("Start shopping →")}</a></div><p class="sub" style="font-size:12px">*General wellness claims; not a substitute for medical advice.</p>`;
+$("#app").innerHTML=h;syncCards();reveal();clearInterval(tipTimer);tipI=0;
+tipTimer=setInterval(()=>{const d=$("#dtxt");if(!d){clearInterval(tipTimer);return}const box=$("#daily");box.style.opacity=0;setTimeout(()=>{tipI=(tipI+1)%DAILY.length;d.textContent=DAILY[tipI];box.style.opacity=1},400)},6000)}
+
+/* ---------- checkout ---------- */
+let pay="qr",lastOrder=null;
+function checkout(){
+const ids=Object.keys(cart).filter(live);if(!ids.length){location.hash="#oils";return}
+const c=cfg(),s=sub(),fee=shipOf(s),tot=s+fee;
+const rows=ids.map(id=>{const p=byId(id);return`<div class="kv"><span>${esc(p.name)} × ${cart[id]}</span><b>${inr(p.price*cart[id])}</b></div>`}).join("");
+$("#app").innerHTML=`<h2 style="margin-top:0">${T("Checkout")}</h2><div class="two"><div><form id="cf" novalidate>
+<div class="panel"><h3 style="margin-top:0">${T("1. Delivery details")}</h3>
+<label for="fn">${T("Full name")}</label><input id="fn" autocomplete="name"><div class="err" id="e_fn"></div>
+<div class="f2"><div><label for="fp">${T("Mobile number")}</label><input id="fp" inputmode="numeric" maxlength="10" autocomplete="tel"><div class="err" id="e_fp"></div></div><div><label for="fe">${T("Email (optional)")}</label><input id="fe" type="email" autocomplete="email"><div class="err" id="e_fe"></div></div></div>
+<label for="fa">${T("Address")}</label><textarea id="fa" rows="2" autocomplete="street-address"></textarea><div class="err" id="e_fa"></div>
+<div class="f2"><div><label for="fc">${T("City")}</label><input id="fc" autocomplete="address-level2"><div class="err" id="e_fc"></div></div><div><label for="fz">${T("PIN code")}</label><input id="fz" inputmode="numeric" maxlength="6" autocomplete="postal-code"><div class="err" id="e_fz"></div></div></div></div>
+<div class="panel"><h3 style="margin-top:0">${T("2. Payment")}</h3><div class="tabs"><button type="button" data-pay="qr">${T("QR code")}</button><button type="button" data-pay="upi">${T("UPI ID")}</button><button type="button" data-pay="bank">${T("Bank transfer")}</button></div><div id="payBox"></div>
+<label for="ft">Transaction / UTR reference number</label><input id="ft" placeholder="e.g. 412345678901" autocomplete="off"><div class="err" id="e_ft"></div><p class="note">After paying ${inr(tot)}, enter the reference number from your payment app or bank so we can verify it.</p></div>
+<button class="btn pulse" id="place" type="submit" style="width:100%">${T("Place order")} · ${inr(tot)}</button></form></div>
+<div class="panel"><h3 style="margin-top:0">${T("Order summary")}</h3>${rows}<div class="kv"><span>${T("Subtotal")}</span><b>${inr(s)}</b></div><div class="kv"><span>${T("Delivery")}</span><b>${fee?inr(fee):T("Free")}</b></div><div class="kv"><span><b>${T("Total")}</b></span><b style="font-size:18px">${inr(tot)}</b></div>${c.free>0&&s<c.free?`<p class="note">Add ${inr(c.free-s)} more for free delivery.</p>`:""}<p><a href="#oils">← Edit cart</a></p></div></div>`;
+drawPay(tot);$("#cf").addEventListener("submit",e=>{e.preventDefault();submitOrder()})}
+function drawPay(tot){const c=cfg(),b=$("#payBox");if(!b)return;
+$$("[data-pay]").forEach(x=>x.classList.toggle("on",x.getAttribute("data-pay")===pay));
+const link=`upi://pay?pa=${encodeURIComponent(c.upi)}&pn=${encodeURIComponent(c.payee)}&am=${tot.toFixed(2)}&cu=INR&tn=${encodeURIComponent("Suprakan order")}`;
+if(pay==="qr"){b.innerHTML=`<p style="margin-top:0">Scan with any UPI app (GPay, PhonePe, Paytm, BHIM) and pay <b>${inr(tot)}</b>.</p><div class="qrbox" id="qr">${c.qrImg?`<img src="${esc(c.qrImg)}" alt="Payment QR code">`:""}</div>${c.qrImg?`<p class="note">Please enter the exact amount <b>${inr(tot)}</b> when paying.</p>`:`<p style="text-align:center"><a class="btn alt sm" href="${esc(link)}">Open UPI app (mobile)</a></p>`}`;
+if(!c.qrImg){try{new QRCode($("#qr"),{text:link,width:190,height:190})}catch(e){$("#qr").innerHTML="<small style='color:#3B4953'>QR unavailable — use the UPI ID tab.</small>"}}}
+else if(pay==="upi"){b.innerHTML=`<div class="kv"><span>UPI ID</span><b>${esc(c.upi)}</b></div><div class="kv"><span>Payee</span><b>${esc(c.payee)}</b></div><div class="kv"><span>Amount</span><b>${inr(tot)}</b></div><p><button type="button" class="btn alt sm" data-copy="${esc(c.upi)}">Copy UPI ID</button> <a class="btn alt sm" href="${esc(link)}">Open UPI app</a></p>`}
+else{const k=c.bank;b.innerHTML=`<div class="kv"><span>Account name</span><b>${esc(k.holder)}</b></div><div class="kv"><span>Account number</span><b>${esc(k.acc)}</b></div><div class="kv"><span>IFSC</span><b>${esc(k.ifsc)}</b></div><div class="kv"><span>Bank / Branch</span><b>${esc(k.name)}, ${esc(k.branch)}</b></div><div class="kv"><span>Amount</span><b>${inr(tot)}</b></div><p><button type="button" class="btn alt sm" data-copy="${esc(k.acc)}">Copy account no.</button> <button type="button" class="btn alt sm" data-copy="${esc(k.ifsc)}">Copy IFSC</button></p><p class="note">Use NEFT / IMPS / RTGS. Keep the UTR number from your bank.</p>`}}
+function setErr(id,m){const e=$("#e_"+id);if(e)e.textContent=m||"";return!m}
+function submitOrder(){
+const v=id=>$("#"+id).value.trim();let ok=true;
+ok=setErr("fn",v("fn").length<2?"Please enter your name":"")&&ok;
+ok=setErr("fp",!/^[6-9]\d{9}$/.test(v("fp"))?"Enter a valid 10-digit mobile number":"")&&ok;
+ok=setErr("fe",v("fe")&&!/^\S+@\S+\.\S+$/.test(v("fe"))?"Enter a valid email":"")&&ok;
+ok=setErr("fa",v("fa").length<6?"Please enter your full address":"")&&ok;
+ok=setErr("fc",v("fc").length<2?"Please enter your city":"")&&ok;
+ok=setErr("fz",!/^\d{6}$/.test(v("fz"))?"Enter a 6-digit PIN code":!pinOk(v("fz"))?"Sorry, we don't deliver to this PIN code yet":"")&&ok;
+const utr=v("ft").toUpperCase().replace(/\s/g,""),all=orders();
+ok=setErr("ft",!/^[A-Z0-9]{6,22}$/.test(utr)?"Enter the 6–22 character reference number from your payment":all.some(o=>o.utr===utr)?"This reference number was already used for another order":"")&&ok;
+if(!ok){const f=document.querySelector(".err:not(:empty)");if(f)f.scrollIntoView({block:"center"});return}
+const ids=Object.keys(cart).filter(live);if(!ids.length){toast("Your cart is empty");location.hash="#oils";return}
+const c=cfg(),now=Date.now(),d=new Date(now),pd=n=>(n<10?"0":"")+n;
+const id="SF"+String(d.getFullYear()).slice(2)+pd(d.getMonth()+1)+pd(d.getDate())+"-"+Math.random().toString(36).slice(2,6).toUpperCase();
+const items=ids.map(k=>{const p=byId(k);return{id:k,name:p.name,size:p.size,price:p.price,qty:cart[k]}});
+const s=items.reduce((a,i)=>a+i.price*i.qty,0);
+const o={id,items,sub:s,ship:shipOf(s),total:s+shipOf(s),cust:{name:v("fn"),phone:v("fp"),email:v("fe"),addr:v("fa"),city:v("fc"),pin:v("fz")},method:pay==="qr"?"UPI QR":pay==="upi"?"UPI ID":"Bank transfer",utr,pay:"Pending",status:"Placed",created:now,biz:c.biz,log:[{t:now,s:"Order placed, payment awaiting verification"}]};
+all.unshift(o);saveOrders(all);lastOrder=o;cart={};saveCart();location.hash="#confirmed"}
+function confetti(){const col=["#EBF4DD","#90AB8B","#5A7863","#3B4953","#cbdac0"];for(let i=0;i<26;i++){const s=document.createElement("span");s.className="cf";s.style.cssText=`left:${Math.random()*100}vw;background:${col[i%5]};animation-duration:${2+Math.random()*2}s;animation-delay:${Math.random()*.6}s`;document.body.appendChild(s);setTimeout(()=>s.remove(),4800)}}
+function confirmed(){if(!lastOrder){location.hash="#track";return}const o=lastOrder;
+$("#app").innerHTML=`<div class="panel" style="text-align:center;max-width:560px;margin:auto"><div class="okc">🎉</div><h2 style="margin:0">Order placed!</h2><p class="sub">Thank you, ${esc(o.cust.name)}. We will verify your payment and confirm shortly.</p><div class="kv"><span>Order ID</span><b>${esc(o.id)}</b></div><div class="kv"><span>Total</span><b>${inr(o.total)}</b></div><div class="kv"><span>Payment ref.</span><b>${esc(o.utr)}</b></div><p class="note" style="margin-top:14px">Save your Order ID. Track with Order ID + mobile number. Once dispatched, delivery usually takes 5–7 days.</p><p><button class="btn" data-inv="${esc(o.id)}">🧾 View / download invoice</button> <a class="btn alt" href="#track">Track order</a></p><p><a class="btn" target="_blank" rel="noopener" href="${waOrder(o)}">💬 Send order on WhatsApp</a></p><p><button class="btn alt sm" data-copy="${esc(o.id)}">Copy Order ID</button></p></div>`;confetti()}
+
+/* ---------- tracking ---------- */
+const STEPS=["Order placed","Payment verified","Packed","Dispatched"];
+const stepIdx=o=>o.status==="Cancelled"||o.pay==="Rejected"?-1:o.pay!=="Verified"?0:({Placed:1,Packed:2,Dispatched:3}[o.status]||1);
+const eta=o=>{const b=o.dispAt||o.created;return fd(b+5*864e5,{day:"numeric",month:"short"})+" – "+fd(b+7*864e5)};
+function timeline(o){const i=stepIdx(o);let h="";
+if(o.status==="Cancelled")h+='<p class="note w">This order was cancelled.</p>';else if(o.pay==="Rejected")h+='<p class="note w">We could not verify your payment. Please call us with your reference number.</p>';
+h+=`<ul class="tl">${STEPS.map((s,k)=>`<li class="${k<=i?"done":""}" style="--i:${k}">${T(s)}</li>`).join("")}</ul>`;
+if(o.status==="Dispatched")h+=`<p class="note">🚚 Dispatched. Expected delivery in 5–7 days: <b>${eta(o)}</b>.${o.courier?`<br>Courier / tracking: <b>${esc(o.courier)}</b>`:""}</p>`;
+else if(o.status!=="Cancelled"&&o.pay!=="Rejected")h+='<p class="note">Delivery usually takes 5–7 days after dispatch. We update this page when your order is packed and dispatched.</p>';return h}
+function track(){
+$("#app").innerHTML='<h2 style="margin-top:0">'+T("Track your order")+'</h2><div class="panel" style="max-width:560px"><form id="tf" novalidate><label for="to">'+T("Order ID")+'</label><input id="to" placeholder="SF261104-AB12" autocomplete="off"><label for="tp">Mobile number used for the order</label><input id="tp" inputmode="numeric" maxlength="10"><div class="err" id="e_tr"></div><p><button class="btn" type="submit">Track</button></p></form><div id="tres"></div></div>';
+$("#tf").addEventListener("submit",e=>{e.preventDefault();const id=$("#to").value.trim().toUpperCase(),ph=$("#tp").value.trim();const o=orders().find(x=>x.id===id&&x.cust.phone===ph);
+if(!o){setErr("tr","No order found for that Order ID and mobile number on this device.");$("#tres").innerHTML="";return}
+setErr("tr","");$("#tres").innerHTML=`<h3>${esc(o.id)} · ${inr(o.total)}</h3><p>Payment: <span class="pill p-${o.pay}">${o.pay}</span></p>${timeline(o)}<p><button class="btn alt sm" data-inv="${esc(o.id)}">🧾 Invoice</button></p><p class="sub" style="font-size:13px">${o.log.map(l=>esc(new Date(l.t).toLocaleString("en-IN"))+" — "+esc(l.s)).join("<br>")}</p>`});
+if(lastOrder){$("#to").value=lastOrder.id;$("#tp").value=lastOrder.cust.phone}}
+
+/* ---------- invoice ---------- */
+let curInv=null;
+function invDoc(o){const b=o.biz||cfg().biz,st=o.pay==="Verified"?"PAID":o.pay==="Rejected"?"PAYMENT REJECTED":"PAYMENT AWAITING VERIFICATION",col=o.pay==="Verified"?"#3B4953":o.pay==="Rejected"?"#8c3a2b":"#3B4953";
+return`<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Invoice ${esc(o.id)}</title><style>body{font:14px/1.5 system-ui,Arial,sans-serif;color:#3B4953;margin:0;padding:28px;background:#EBF4DD}h1{margin:0;color:#3B4953;font-size:24px}.t{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-bottom:3px solid #90AB8B;padding-bottom:14px;margin-bottom:16px}.r{text-align:right}table{width:100%;border-collapse:collapse;margin:14px 0}th,td{padding:8px;border-bottom:1px solid #b4c8ac;text-align:left}th{background:#cbdac0;font-size:12px;text-transform:uppercase}td.n,th.n{text-align:right}.tot td{font-weight:700;border-top:2px solid #90AB8B}.st{display:inline-block;border:2px solid ${col};color:${col};padding:4px 12px;border-radius:6px;font-weight:800;letter-spacing:.05em}.f{margin-top:26px;color:#3B4953;font-size:12px;text-align:center}@media print{body{padding:10px}}</style></head><body>
+<div class="t"><div><h1>🌾 ${esc(b.name)}</h1>${esc(b.addr)}<br>${esc(b.phone)}${b.email?"<br>"+esc(b.email):""}${b.gstin?"<br>GSTIN: "+esc(b.gstin):""}${(b.fssai||cfg().biz.fssai)?"<br>FSSAI Lic. No: "+esc(b.fssai||cfg().biz.fssai):""}</div><div class="r"><b style="font-size:18px">INVOICE</b><br>No: INV-${esc(o.id)}<br>Date: ${fd(o.created)}<br>Order: ${esc(o.id)}</div></div>
+<b>Billed to</b><br>${esc(o.cust.name)}<br>${esc(o.cust.addr)}, ${esc(o.cust.city)} – ${esc(o.cust.pin)}<br>Mobile: ${esc(o.cust.phone)}${o.cust.email?"<br>"+esc(o.cust.email):""}
+<table><thead><tr><th>#</th><th>Item</th><th>Pack</th><th class="n">Price</th><th class="n">Qty</th><th class="n">Amount</th></tr></thead><tbody>${o.items.map((i,k)=>`<tr><td>${k+1}</td><td>${esc(i.name)}</td><td>${esc(i.size)}</td><td class="n">${inr(i.price)}</td><td class="n">${i.qty}</td><td class="n">${inr(i.price*i.qty)}</td></tr>`).join("")}<tr><td colspan="5" class="n">Subtotal</td><td class="n">${inr(o.sub)}</td></tr><tr><td colspan="5" class="n">Delivery</td><td class="n">${o.ship?inr(o.ship):"Free"}</td></tr><tr class="tot"><td colspan="5" class="n">Total</td><td class="n">${inr(o.total)}</td></tr></tbody></table>
+<p>Payment method: <b>${esc(o.method)}</b> · Reference: <b>${esc(o.utr)}</b><br><span class="st">${st}</span></p><div class="f">${esc(b.note)}<br>This is a computer-generated invoice.</div></body></html>`}
+function showInv(id){const o=orders().find(x=>x.id===id);if(!o){toast("Invoice not found");return}curInv=o;$("#invf").srcdoc=invDoc(o);$("#invm").classList.remove("hide")}
+async function dlInv(){const o=curInv;if(!o)return;try{const d=window.claude&&claude.use?await claude.use("downloads"):null;if(!d){toast("Download unavailable here — use Print / Save as PDF");return}await d.save({filename:"Invoice-"+o.id+".html",data:invDoc(o)});toast("Invoice saved")}catch(e){if(!e||e.code!=="declined")toast("Could not save — use Print / Save as PDF")}}
+
+/* ---------- admin ---------- */
+const hashPw=(u,p)=>{const s="sf:"+u.toLowerCase()+":"+p;if(window.crypto&&crypto.subtle&&window.TextEncoder)return crypto.subtle.digest("SHA-256",new TextEncoder().encode(s)).then(b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,"0")).join(""));return Promise.resolve("p:"+s)};
+const adminUser=()=>{try{return sessionStorage.getItem("sf_admin")||""}catch(e){return mem.admin||""}};
+const setAdmin=v=>{mem.admin=v;try{v?sessionStorage.setItem("sf_admin",v):sessionStorage.removeItem("sf_admin")}catch(e){}};
+let pendingImg="";let atab="orders",filt="All",qs="";
+const TABS=[["orders","📦 Orders"],["analytics","📊 Analytics"],["products","🛍 Products"],["pay","💳 Payments & QR"],["access","🔐 Business & access"],["enq","📨 Enquiries"]];
+function login(){
+$("#app").innerHTML='<div class="panel" style="max-width:380px;margin:30px auto"><h2 style="margin-top:0">Admin login</h2><form id="lf"><label for="lu">Username</label><input id="lu" autocomplete="username"><label for="lp">Password</label><input id="lp" type="password" autocomplete="current-password"><div class="err" id="e_lg"></div><p><button class="btn" type="submit" style="width:100%">Log in</button></p></form></div>';
+$("#lf").addEventListener("submit",e=>{e.preventDefault();const u=$("#lu").value.trim(),pw=$("#lp").value;
+hashPw(u,pw).then(async h=>{const ad=cfg().admins;let ok;if(!ad.length)ok=u.toLowerCase()==="admin"&&h===await hashPw("admin",DEF.pw);else ok=ad.some(a=>a.u.toLowerCase()===u.toLowerCase()&&a.h===h);
+if(ok){setAdmin(u);admin()}else setErr("lg","Incorrect username or password")})})}
+function admin(){if(!adminUser()){login();return}setCtx("draft");
+$("#app").innerHTML=`<div class="row" style="flex-wrap:wrap"><h2 style="margin:0">Admin dashboard</h2><div><small>Signed in as <b>${esc(adminUser())}</b></small> <button class="btn alt sm" id="logout">Log out</button></div></div><p class="note" style="margin:12px 0">Changes to products, photos, payments, QR and business details stay as a <b>draft</b> until you click <b>Save &amp; Publish</b>. Orders and payment verification take effect immediately. Data is stored in this browser only.</p>${pubBar()}<div class="tabs">${TABS.map(t=>`<button data-atab="${t[0]}" class="${t[0]===atab?"on":""}">${t[1]}</button>`).join("")}</div><div id="atab"></div>`;
+({orders:tOrders,analytics:tAnalytics,products:tProducts,pay:tPay,access:tAccess,enq:tEnq})[atab]();countUp()}
+function countUp(){$$("[data-n]").forEach(el=>{const n=+el.dataset.n,pre=el.dataset.pre||"";let t0=null;const f=ts=>{if(!t0)t0=ts;const p=Math.min(1,(ts-t0)/800);el.textContent=pre+Math.round(n*p).toLocaleString("en-IN");if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)})}
+function tOrders(){const all=orders(),c=cfg();let rev=0,pend=0,act=0;all.forEach(o=>{if(o.status==="Cancelled")return;act++;if(o.pay==="Verified")rev+=o.total;if(o.pay==="Pending")pend++});
+const warn=(c.upi===DEF.upi||c.bank.acc===DEF.bank.acc)?'<p class="note w">⚠ Payment details are still placeholders. Update them in “Payments & QR”.</p>':"";
+$("#atab").innerHTML=`${warn}<div class="stats"><div class="stat"><b data-n="${all.length}">${all.length}</b><span>Total orders</span></div><div class="stat"><b data-n="${pend}">${pend}</b><span>Payments to verify</span></div><div class="stat"><b data-n="${rev}" data-pre="₹">${inr(rev)}</b><span>Verified revenue</span></div><div class="stat"><b data-n="${act}">${act}</b><span>Active orders</span></div></div>
+<div class="panel"><div class="row" style="flex-wrap:wrap"><h3 style="margin:0">Orders</h3><div style="display:flex;gap:8px;flex-wrap:wrap"><input id="qs" placeholder="Search ID, name, mobile, ref" value="${esc(qs)}" style="width:220px"><select id="flt" style="width:auto">${["All","Pending payment","Placed","Packed","Dispatched","Cancelled"].map(s=>`<option${s===filt?" selected":""}>${s}</option>`).join("")}</select></div></div><div class="tw"><table><thead><tr><th>Order</th><th>Customer</th><th>Items</th><th>Payment</th><th>Status</th><th>Actions</th></tr></thead><tbody id="ordBody"></tbody></table></div></div>`;drawOrd()}
+function drawOrd(){const q=qs.toLowerCase();
+const l=orders().filter(o=>(filt==="All"||(filt==="Pending payment"?o.pay==="Pending"&&o.status!=="Cancelled":o.status===filt))&&(!q||[o.id,o.cust.name,o.cust.phone,o.utr].some(x=>String(x).toLowerCase().includes(q))));
+$("#ordBody").innerHTML=l.length?l.map(o=>`<tr><td><b>${esc(o.id)}</b><br><small>${esc(new Date(o.created).toLocaleString("en-IN"))}</small></td><td>${esc(o.cust.name)}<br><small>${esc(o.cust.phone)}<br>${esc(o.cust.addr)}, ${esc(o.cust.city)} ${esc(o.cust.pin)}</small></td><td>${o.items.map(i=>esc(i.name)+" × "+i.qty).join("<br>")}<br><b>${inr(o.total)}</b></td><td>${esc(o.method)}<br><small>Ref: ${esc(o.utr)}</small><br><span class="pill p-${o.pay}">${o.pay}</span></td><td><span class="pill p-${o.status}">${o.status}</span>${o.dispAt?`<br><small>Dispatched ${fd(o.dispAt)}</small>`:""}</td><td><div style="display:grid;gap:6px;min-width:150px"><button class="btn sm" data-pv="${o.id}" ${o.pay==="Verified"?"disabled":""}>Verify payment</button><button class="btn alt sm" data-pr="${o.id}" ${o.pay==="Rejected"?"disabled":""}>Reject payment</button><select data-st="${o.id}">${["Placed","Packed","Dispatched","Cancelled"].map(s=>`<option${s===o.status?" selected":""}>${s}</option>`).join("")}</select><input data-trk="${o.id}" placeholder="Courier / tracking no." value="${esc(o.courier||"")}"><button class="btn alt sm" data-inv="${o.id}">🧾 Invoice</button><a class="btn alt sm" target="_blank" rel="noopener" href="${waCust(o)}">💬 WhatsApp</a><button class="btn alt sm" data-del="${o.id}">Delete</button></div></td></tr>`).join(""):'<tr><td colspan="6">No orders to show.</td></tr>'}
+function tAnalytics(){const all=orders(),M={},PR={},MT={};
+all.forEach(o=>{const d=new Date(o.created),k=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");const m=M[k]||(M[k]={n:0,paid:0,pend:0,canc:0});
+if(o.status==="Cancelled"){m.canc++;return}m.n++;if(o.pay==="Verified")m.paid+=o.total;else if(o.pay==="Pending")m.pend+=o.total;
+o.items.forEach(i=>{const p=PR[i.name]||(PR[i.name]={q:0,r:0});p.q+=i.qty;p.r+=i.price*i.qty});MT[o.method]=(MT[o.method]||0)+1});
+const ks=Object.keys(M).sort().slice(-12),lab=k=>new Date(+k.slice(0,4),+k.slice(5)-1,1).toLocaleString("en-IN",{month:"short",year:"2-digit"});
+if(!ks.length){$("#atab").innerHTML='<div class="panel">No orders yet — analytics will appear once orders come in.</div>';return}
+const mx=f=>Math.max(1,...ks.map(k=>M[k][f])),chart=(f,cls,fmt)=>`<div class="chart">${ks.map(k=>`<div class="col"><div class="bw"><div class="bar ${cls}" style="--h:${Math.round(M[k][f]/mx(f)*88)}%"><em>${fmt(M[k][f])}</em></div></div><small>${lab(k)}</small></div>`).join("")}</div>`;
+const top=Object.keys(PR).sort((a,b)=>PR[b].r-PR[a].r),tm=Math.max(1,...top.map(n=>PR[n].r)),mt=Object.keys(MT),tt=mt.reduce((s,k)=>s+MT[k],0)||1;
+$("#atab").innerHTML=`<div class="panel"><h3 style="margin:0">Verified payments by month (₹)</h3>${chart("paid","",inr)}</div><div class="panel"><h3 style="margin:0">Orders by month</h3>${chart("n","o",x=>x)}</div>
+<div class="panel"><h3 style="margin-top:0">Month-wise summary</h3><div class="tw"><table><thead><tr><th>Month</th><th>Orders</th><th>Verified payments</th><th>Pending payments</th><th>Cancelled</th></tr></thead><tbody>${ks.slice().reverse().map(k=>`<tr><td>${lab(k)}</td><td>${M[k].n}</td><td>${inr(M[k].paid)}</td><td>${inr(M[k].pend)}</td><td>${M[k].canc}</td></tr>`).join("")}</tbody></table></div></div>
+<div class="two"><div class="panel"><h3 style="margin-top:0">Top products (by sales)</h3>${top.map(n=>`<div style="margin-bottom:10px"><div class="row"><span>${esc(n)} · ${PR[n].q} sold</span><b>${inr(PR[n].r)}</b></div><div class="hbar"><i style="--w:${Math.round(PR[n].r/tm*100)}%"></i></div></div>`).join("")}</div><div class="panel"><h3 style="margin-top:0">Payment methods</h3>${mt.map(n=>`<div style="margin-bottom:10px"><div class="row"><span>${esc(n)}</span><b>${MT[n]}</b></div><div class="hbar"><i style="--w:${Math.round(MT[n]/tt*100)}%"></i></div></div>`).join("")}</div></div>`}
+const CATOPT=c=>Object.keys(CATS).map(k=>`<option value="${k}"${k===c?" selected":""}>${CATS[k][0]}</option>`).join("");
+const prow=p=>`<tr data-pid="${esc(p.id)}"><td><input data-f="e" value="${esc(p.e||"")}" style="width:56px" aria-label="Icon"><div class="pthumb">${p.img?`<img src="${esc(p.img)}" alt="">`:""}</div><label class="btn alt sm pf">📷 Photo<input type="file" accept="image/*" data-pf="${esc(p.id)}" hidden></label></td><td><input data-f="name" value="${esc(p.name)}" style="min-width:140px"></td><td><input data-f="tag" value="${esc(p.tag||"")}" style="min-width:90px"></td><td><select data-f="cat">${CATOPT(p.cat)}</select></td><td><input data-f="size" value="${esc(p.size)}" style="width:70px"></td><td><input data-f="price" type="number" min="1" value="${p.price}" style="width:80px"></td><td><input data-f="desc" value="${esc(p.desc||"")}" style="min-width:200px"></td><td><input data-f="avail" type="checkbox" ${p.avail!==false?"checked":""} aria-label="Visible"></td><td style="white-space:nowrap">${p.id==="new"?"":`<button class="btn alt sm" data-pd="${esc(p.id)}">Details</button> `}<button class="btn sm" data-sp="${esc(p.id)}">Save</button> <button class="btn alt sm" data-dp="${esc(p.id)}">Delete</button></td></tr>`;
+function tProducts(){pendingImg="";$("#atab").innerHTML=`<div class="panel"><h3 style="margin-top:0">Products</h3><p class="sub">Add, edit, hide or delete items. Changes show on the shop instantly. Use “📷 Photo” on a row to upload a product photo (it replaces the icon); “Details” adds MRP, ingredients and nutrition. “Visible” off hides an item (out of stock).</p><div class="tw"><table><thead><tr><th>Icon</th><th>Name</th><th>Label</th><th>Category</th><th>Pack</th><th>Price ₹</th><th>Description</th><th>Visible</th><th></th></tr></thead><tbody>${prow({id:"new",cat:"oil",name:"",size:"",price:"",e:"🌾",desc:"",tag:"",avail:true}).replace('data-sp="new">Save','data-sp="new">Add product').replace(/<button class="btn alt sm" data-dp="new">Delete<\/button>/,"")}${P.map(prow).join("")}</tbody></table></div><p><button class="btn alt sm" data-resetp>Restore original catalog</button></p></div>`}
+function saveProd(tr,id){const g=f=>tr.querySelector(`[data-f="${f}"]`),name=g("name").value.trim(),size=g("size").value.trim(),price=Math.round(Number(g("price").value));
+if(name.length<2||!size||!(price>0)||price>1e6){toast("Enter a name, pack size and a valid price");return}
+const old=P.find(q=>q.id===id)||{};const o={...old,...(id==="new"&&pendingImg?{img:pendingImg}:{}),id:id==="new"?"p"+Date.now().toString(36):id,cat:g("cat").value,name,size,price,e:g("e").value.trim()||"🌾",desc:g("desc").value.trim(),tag:g("tag").value.trim(),avail:g("avail").checked};
+const i=P.findIndex(p=>p.id===o.id);if(i>=0)P[i]=o;else P.push(o);pendingImg="";saveP();if(!live(o.id)){delete cart[o.id];saveCart()}toast(id==="new"?"Product added":"Product saved");tProducts()}
+function tPay(){const c=cfg(),k=c.bank;
+$("#atab").innerHTML=`<div class="two"><div class="panel"><h3 style="margin-top:0">Payment details</h3><form id="pf" novalidate><div class="f2"><div><label>UPI ID</label><input id="s_upi" value="${esc(c.upi)}"></div><div><label>Payee name</label><input id="s_payee" value="${esc(c.payee)}"></div><div><label>Account holder</label><input id="s_h" value="${esc(k.holder)}"></div><div><label>Account number</label><input id="s_acc" value="${esc(k.acc)}"></div><div><label>IFSC</label><input id="s_ifsc" value="${esc(k.ifsc)}"></div><div><label>Bank name</label><input id="s_bn" value="${esc(k.name)}"></div><div><label>Branch</label><input id="s_br" value="${esc(k.branch)}"></div><div><label>Delivery charge (₹)</label><input id="s_ship" type="number" min="0" value="${c.ship}"></div><div><label>Free delivery above (₹, 0 = off)</label><input id="s_free" type="number" min="0" value="${c.free}"></div></div><label>Deliverable PIN codes / prefixes (comma separated, e.g. 636, 600001). Leave empty to deliver everywhere.</label><textarea id="s_pins" rows="2">${esc(c.pins)}</textarea><div class="err" id="e_set"></div><p><button class="btn" type="submit">Save payment details</button></p></form></div>
+<div class="panel"><h3 style="margin-top:0">Payment QR code</h3><div class="qrbox">${c.qrImg?`<img src="${esc(c.qrImg)}" alt="Current QR">`:'<small style="color:#3B4953">Auto-generated from your UPI ID</small>'}</div><p class="sub" style="font-size:13px">Upload your own QR image (e.g. from GPay / PhonePe business). You can change or remove it any time. Customers then see this QR instead of the auto one.</p><input type="file" id="qrf" accept="image/*"><div class="err" id="e_qr"></div><p><button class="btn alt sm" data-rmqr ${c.qrImg?"":"disabled"}>Remove custom QR</button></p></div></div>`}
+function tAccess(){const c=cfg(),b=c.biz,ad=S.get("sf_cfg",{}).admins||[];
+$("#atab").innerHTML=`<div class="two"><div class="panel"><h3 style="margin-top:0">Business details (shown on invoices &amp; footer)</h3><form id="bf" novalidate><label>Business name</label><input id="b_name" value="${esc(b.name)}"><label>Address</label><input id="b_addr" value="${esc(b.addr)}"><div class="f2"><div><label>Phone</label><input id="b_phone" value="${esc(b.phone)}"></div><div><label>Email</label><input id="b_email" value="${esc(b.email)}"></div></div><label>GSTIN (optional)</label><input id="b_gst" value="${esc(b.gstin)}"><label>WhatsApp number (with country code, e.g. 919500098678)</label><input id="b_wa" inputmode="numeric" value="${esc(b.whatsapp)}"><label>Damage-report window (hours)</label><input id="b_ret" type="number" min="1" value="${b.retHrs}"><label>FSSAI licence number (14 digits)</label><input id="b_fssai" inputmode="numeric" maxlength="14" value="${esc(b.fssai)}"><label>Invoice footer note</label><input id="b_note" value="${esc(b.note)}"><div class="err" id="e_biz"></div><p><button class="btn" type="submit">Save business details</button></p></form><label>FSSAI certificate (photo or scan, JPG/PNG)</label><input type="file" id="certf" accept="image/*"><div class="err" id="e_cert"></div><p><button class="btn alt sm" data-rmcert ${c.fssaiImg?"":"disabled"}>Remove certificate</button> ${c.fssaiImg?"<small>Certificate uploaded ✔</small>":""}</p></div>
+<div class="panel"><h3 style="margin-top:0">Admin access</h3><p class="sub" style="font-size:13px">${ad.length?"Admins who can log in:":"Using the built-in default login (admin). Add your own admin below — the default login is then disabled."}</p>${ad.map(a=>`<div class="kv"><span>👤 ${esc(a.u)}</span>${a.u.toLowerCase()===adminUser().toLowerCase()?"<small>(you)</small>":`<button class="btn alt sm" data-rma="${esc(a.u)}">Remove</button>`}</div>`).join("")}<form id="af" novalidate><label>Username</label><input id="a_u" autocomplete="off"><label>Password (min 8 characters)</label><input id="a_p" type="password" autocomplete="new-password"><div class="err" id="e_acc"></div><p class="sub" style="font-size:12px">Using an existing username changes that admin's password.</p><p><button class="btn" type="submit">Add / update admin</button></p></form></div></div>`+extraHtml()}
+function updateOrder(id,fn,quiet){const all=orders(),o=all.find(x=>x.id===id);if(!o)return;if(fn(o)===false){admin();return}saveOrders(all);if(!quiet)admin()}
+const logE=(o,s)=>o.log.push({t:Date.now(),s});
+function applyBiz(){const o=ctx;ctx="live";try{applyBiz0()}finally{ctx=o}}
+function applyBiz0(){const c=cfg(),b=c.biz;$("#topbar").innerHTML=`<span>📞 ${esc(b.phone)}</span><span>${c.free>0?"🚚 Free delivery above "+inr(c.free):"🚚 Delivery in 5–7 days after dispatch"}</span><span>${b.fssai?"🏅 FSSAI Lic. No. "+esc(b.fssai):"🌾 Natural oils & millet foods"}</span>`;$("#waBtn").href=waLink("Hello! I have a question about Suprakan Foods products.");$("#fcontact").textContent="📞 "+b.phone+" · "+b.addr;$("#ffssai").innerHTML=b.fssai?`🛡 FSSAI Lic. No. <b>${esc(b.fssai)}</b>${c.fssaiImg?` · <button class="btn alt sm" data-cert>View certificate</button>`:""}`:""}
+function readQr(f,mx){return new Promise((res,rej)=>{if(!/^image\//.test(f.type)||f.size>8e6)return rej();const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const m=Math.min(1,(mx||520)/Math.max(im.width,im.height)),cv=document.createElement("canvas");cv.width=Math.round(im.width*m);cv.height=Math.round(im.height*m);const x=cv.getContext("2d");x.fillStyle="#fff";x.fillRect(0,0,cv.width,cv.height);x.drawImage(im,0,0,cv.width,cv.height);res(cv.toDataURL("image/jpeg",mx?.85:.92))};im.onerror=rej;im.src=r.result};r.onerror=rej;r.readAsDataURL(f)})}
+
+/* ---------- whatsapp, pages, modals ---------- */
+const waNum=()=>{let n=String(cfg().biz.whatsapp||"").replace(/\D/g,"");if(n.length===10)n="91"+n;return n};
+const waLink=t=>"https://wa.me/"+waNum()+"?text="+encodeURIComponent(t);
+const waOrder=o=>waLink("New order "+o.id+"\n"+o.items.map(i=>i.name+" ("+i.size+") x "+i.qty).join("\n")+"\nTotal: "+inr(o.total)+"\nPayment: "+o.method+", Ref "+o.utr+"\nName: "+o.cust.name+"\nPhone: "+o.cust.phone+"\nAddress: "+o.cust.addr+", "+o.cust.city+" "+o.cust.pin);
+const waCust=o=>"https://wa.me/91"+o.cust.phone+"?text="+encodeURIComponent("Hello "+o.cust.name+", this is "+cfg().biz.name+". Your order "+o.id+" ("+inr(o.total)+") status: "+(o.pay==="Verified"?o.status:"payment "+o.pay)+". Thank you!");
+function policy(k){const c=cfg(),b=c.biz,ct=esc(b.phone)+(b.email?" · "+esc(b.email):"");
+const free=c.free>0?"Orders of "+inr(c.free)+" or more ship free; otherwise a delivery charge of "+inr(c.ship)+" applies.":(c.ship?"A delivery charge of "+inr(c.ship)+" applies to every order.":"Delivery is free.");
+const area=c.pins.trim()?"We currently deliver to PIN codes starting with or matching: "+esc(c.pins)+".":"We currently deliver across India wherever our courier partners operate.";
+const D={
+privacy:["Privacy Policy",["What we collect","When you order we collect your name, mobile number, address, optional email and your payment reference number."],["How we use it","To process, pack, deliver and support your order, and to contact you about it."],["Sharing","We do not sell your personal information. We share delivery details only with the courier partners needed to deliver your order."],["Your choices","You can ask us to correct or delete your details by contacting us."]],
+terms:["Terms of Sale",["Prices &amp; availability","All prices are in Indian Rupees (₹) and may change. Products are subject to availability."],["Order confirmation","An order is confirmed once we verify your payment. If we cannot verify it, or an item is unavailable, we may cancel the order and refund any amount received."],["Product information","Photos are for illustration. Please read the label on the pack for ingredients, shelf life and allergen information."],["Governing law","These terms are governed by the laws of India."]],
+shipping:["Shipping &amp; Delivery Policy",["Delivery area",area],["Dispatch","Orders are packed and dispatched after your payment is verified."],["Delivery time","Delivery usually takes 5–7 days after dispatch. Delays can happen due to weather, festivals or courier issues."],["Delivery charges",free],["Tracking","We update your order status as it is packed and dispatched, and share courier tracking details when available."]],
+returns:["Returns, Refunds &amp; Cancellation",["Food products","For food-safety reasons we cannot accept returns for change of mind or once a pack has been opened."],["Damaged or wrong items","If your order arrives damaged, leaking or incorrect, contact us within "+b.retHrs+" hours of delivery with clear photos of the pack and the outer box."],["Resolution","After checking, we will arrange a replacement or a refund to your original payment method."],["Cancellation","You can cancel before your order is dispatched by contacting us. Dispatched orders cannot be cancelled."]]}[k];
+$("#app").innerHTML=`<div class="panel legal" style="max-width:760px;margin:auto"><p><a href="#top">← Back to shop</a></p><h2 style="margin-top:0">${D[0]}</h2><p><small>Last updated: 5 November 2026</small></p>${D.slice(1).map(x=>`<h3>${x[0]}</h3><p>${x[1]}</p>`).join("")}<h3>Contact us</h3><p>${esc(b.name)}, ${esc(b.addr)}<br>${ct}</p></div>`}
+function wholesale(){
+$("#app").innerHTML=`<div class="panel" style="max-width:640px;margin:auto"><p><a href="#top">← Back to shop</a></p><h2 style="margin-top:0">${T("Wholesale enquiry")}</h2><p class="sub">Shops, restaurants and bulk buyers — tell us what you need and we'll get back to you.</p><form id="wf" novalidate><div class="f2"><div><label for="w_n">Your name</label><input id="w_n"></div><div><label for="w_b">Business / shop name</label><input id="w_b"></div><div><label for="w_p">Mobile number</label><input id="w_p" inputmode="numeric" maxlength="10"></div><div><label for="w_c">City</label><input id="w_c"></div><div><label for="w_i">Products needed</label><input id="w_i" placeholder="e.g. Groundnut oil, millet pasta"></div><div><label for="w_q">Approx. quantity</label><input id="w_q" placeholder="e.g. 50 litres / month"></div></div><label for="w_m">Message (optional)</label><textarea id="w_m" rows="2"></textarea><div class="err" id="e_wh"></div><p><button class="btn pulse" type="submit">${T("Send enquiry")}</button></p></form></div>`}
+function showProd(id){const p=byId(id);if(!p)return;
+const sv=p.mrp>p.price?Math.round((1-p.price/p.mrp)*100):0,fs=cfg().biz.fssai;
+const row=(k,v)=>v?`<div class="kv"><span>${k}</span><b style="text-align:right;word-break:normal">${esc(v)}</b></div>`:"";
+const nut=(p.nutri||"").split("\n").map(l=>l.trim()).filter(Boolean).map(l=>{const i=l.indexOf(":");return i>0?row(esc(l.slice(0,i)),l.slice(i+1).trim()):""}).join("");
+$("#pmt").textContent=p.name;
+$("#pmb").innerHTML=`<div class="pdg"><div class="pic big">${p.img?`<img src="${esc(p.img)}" alt="${esc(p.name)}">`:`<span>${esc(p.e||"🌾")}</span>`}</div><div><span class="tag">${esc(p.tag||"")}</span><h3 style="margin:2px 0">${esc(p.name)}</h3><p class="sub" style="margin-bottom:8px">${esc(p.desc||"")}</p><p><span class="price">${inr(p.price)}</span> ${sv?`<s class="mrp">${inr(p.mrp)}</s> <span class="pill">${sv}% off</span>`:""} <small>· ${esc(p.size)}</small></p><div data-slot="${esc(p.id)}"></div></div></div>
+${(p.ing||p.shelf||p.sto||fs)?`<h3>Product details</h3>${row("Ingredients",p.ing)}${row("Shelf life",p.shelf)}${row("Storage",p.sto)}${row("FSSAI Lic. No.",fs)}`:""}${nut?`<h3>Nutrition information</h3>${nut}`:""}`;
+$("#pm").classList.remove("hide");syncCards()}
+function openPD(id){const p=byId(id);if(!p)return;
+$("#pdb").innerHTML=`<form id="pdf" novalidate data-id="${esc(id)}"><b>${esc(p.name)}</b><div class="pic" id="pdprev" style="height:140px;margin:8px 0">${p.img?`<img src="${esc(p.img)}" alt="">`:`<span>${esc(p.e||"🌾")}</span>`}</div><input type="file" id="pimg" accept="image/*"><div class="err" id="e_pimg"></div><p><button type="button" class="btn alt sm" data-pdrm>Remove photo</button></p><label>Badge on product card</label><select id="d_bdg">${["","NEW","HOT SALE","BESTSELLER","POPULAR"].map(b=>`<option value="${b}"${(p.badge||"")===b?" selected":""}>${b||"None"}</option>`).join("")}</select><div class="f2"><div><label>MRP ₹ (optional)</label><input id="d_mrp" type="number" min="0" value="${p.mrp||""}"></div><div><label>Shelf life</label><input id="d_shelf" value="${esc(p.shelf||"")}" placeholder="e.g. 6 months from packing"></div></div><label>Ingredients</label><textarea id="d_ing" rows="2">${esc(p.ing||"")}</textarea><label>Storage</label><input id="d_sto" value="${esc(p.sto||"")}" placeholder="Store in a cool, dry place"><label>Nutrition information (per 100 g / 100 ml) — one “Name: value” per line</label><textarea id="d_nut" rows="5" placeholder="Energy: … kcal">${esc(p.nutri||"")}</textarea><div class="err" id="e_pd"></div><p><button class="btn" type="submit">Save details</button> <button type="button" class="btn alt" data-pdx>Close</button></p></form>`;$("#pdm").classList.remove("hide")}
+function tEnq(){const l=S.get("sf_enq",[]);
+$("#atab").innerHTML=`<div class="panel"><h3 style="margin-top:0">Wholesale enquiries</h3><div class="tw"><table><thead><tr><th>Date</th><th>Contact</th><th>Requirement</th><th></th></tr></thead><tbody>${l.length?l.map(q=>`<tr><td>${esc(new Date(q.t).toLocaleString("en-IN"))}</td><td><b>${esc(q.name)}</b><br>${esc(q.biz)}<br>${esc(q.phone)} · ${esc(q.city)}</td><td>${esc(q.item)} · ${esc(q.qty)}<br><small>${esc(q.msg)}</small></td><td style="white-space:nowrap"><a class="btn alt sm" target="_blank" rel="noopener" href="https://wa.me/91${esc(q.phone)}?text=${encodeURIComponent("Hello "+q.name+", thank you for your wholesale enquiry to "+cfg().biz.name+".")}">💬 Reply</a> <button class="btn alt sm" data-delenq="${q.id}">Delete</button></td></tr>`).join(""):'<tr><td colspan="4">No enquiries yet.</td></tr>'}</tbody></table></div></div>`}
+function extraHtml(){const c=cfg();return`<div class="two"><div class="panel"><h3 style="margin-top:0">Mill / product photos (shown in “Inside our mill”)</h3><div class="gal">${c.gallery.map((u,i)=>`<div><img src="${esc(u)}" alt="Gallery ${i+1}"><button class="btn alt sm" data-rmg="${i}" style="margin-top:6px">Remove</button></div>`).join("")}</div><label>Add photo (max 6)</label><input type="file" id="galf" accept="image/*"><div class="err" id="e_gal"></div></div><div class="panel"><h3 style="margin-top:0">Customer reviews</h3>${c.reviews.map((r,i)=>`<div class="kv"><span>${esc(r.n)}: ${esc(r.t)} ${"★".repeat(r.s)}</span><button class="btn alt sm" data-rmr="${i}">Remove</button></div>`).join("")}<form id="rf" novalidate><label>Customer name</label><input id="r_n"><label>Review (add only real reviews you have permission to show)</label><textarea id="r_t" rows="2"></textarea><label>Stars</label><select id="r_s"><option>5</option><option>4</option><option>3</option></select><div class="err" id="e_rev"></div><p><button class="btn" type="submit">Add review</button></p></form></div></div>`}
+
+/* ---------- draft & publish ---------- */
+function setCtx(c){if(ctx!==c){ctx=c;loadP()}}
+const strip=c=>{const x={...c};delete x.admins;return JSON.stringify(x)};
+function isDirty(){const dc=S.get("sf_cfg_d",null),dp=S.get("sf_prod2_d",null);return!!((dc&&strip(dc)!==strip(S.get("sf_cfg",{})))||(dp&&JSON.stringify(dp)!==JSON.stringify(S.get("sf_prod2",null)||DEFP)))}
+const pubMsg=()=>isDirty()?"🟡 <b>Unpublished changes</b> — customers can't see them yet. Click Save &amp; Publish.":"🔵 Everything is published and live.";
+function refreshPub(){const adm=ctx==="draft"&&!!adminUser();const e=$("#pubst");if(e)e.innerHTML=pubMsg();const f=$("#pubfl");if(f)f.classList.toggle("hide",!(adm&&isDirty()));const w=$("#waBtn");if(w)w.classList.toggle("hide",adm&&location.hash==="#admin")}
+const pubBar=()=>`<div class="panel" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:12px 16px"><span id="pubst">${pubMsg()}</span><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn alt sm" href="#preview">👁 Preview</a><button class="btn alt sm" data-discard>Discard changes</button><button class="btn" data-publish>💾 Save &amp; Publish</button></div></div>`;
+const toAdmin=()=>{if(location.hash==="#admin")admin();else location.hash="#admin"};
+function publish(){const dc=S.get("sf_cfg_d",null),dp=S.get("sf_prod2_d",null);
+if(!dc&&!dp){toast("Nothing new to publish");return}
+if(dc){dc.admins=S.get("sf_cfg",{}).admins;if(!S.set("sf_cfg",dc))return}
+if(dp&&!S.set("sf_prod2",dp))return;
+S.del("sf_cfg_d");S.del("sf_prod2_d");loadP();applyBiz();toast("Published! Your changes are now live on the website.");toAdmin()}
+function discard(){S.del("sf_cfg_d");S.del("sf_prod2_d");loadP();toast("Draft discarded");toAdmin()}
+
+function doSearch(v){const q=v.trim().toLowerCase(),box=$("#sres");if(q.length<2){box.classList.add("hide");return}
+const m=P.filter(p=>p.avail!==false&&(p.name+" "+(p.tag||"")).toLowerCase().indexOf(q)>-1).slice(0,8);
+box.innerHTML=m.length?m.map(p=>`<div class="sr"><span>${esc(p.e||"")} ${esc(p.name)}<br><small>${esc(p.size)} · ${inr(p.price)}</small></span><button class="btn sm" data-addq="${esc(p.id)}">Add</button><button class="btn alt sm" data-view="${esc(p.id)}">View</button></div>`).join(""):'<div class="sr"><span>No products found</span></div>';box.classList.remove("hide")}
+
+/* ---------- router & events ---------- */
+function route(){const h=location.hash||"#top";clearInterval(tipTimer);setCtx((h==="#admin"||h==="#preview")&&adminUser()?"draft":"live");refreshPub();
+if(h==="#track")track();else if(h==="#admin")admin();else if(h==="#preview"&&adminUser()){shop();$("#app").insertAdjacentHTML("afterbegin",'<div class="note w" style="margin-bottom:12px">👁 Preview of your unpublished changes — customers can\'t see this yet. <a href="#admin">← Back to admin</a></div>')}else if(h==="#checkout")checkout();else if(h==="#confirmed")confirmed();else if(["#privacy","#terms","#shipping","#returns"].indexOf(h)>-1)policy(h.slice(1));else if(h==="#wholesale")wholesale();
+else{if(!$("#top")||shopCtx!==ctx)shop();const el=document.getElementById(h.slice(1));if(el)el.scrollIntoView();else window.scrollTo(0,0);return}
+window.scrollTo(0,0)}
+const arm=(t,label,fn)=>{if(t.dataset.arm){fn();return}t.dataset.arm="1";const old=t.textContent;t.textContent=label;setTimeout(()=>{delete t.dataset.arm;t.textContent=old},3000)};
+document.addEventListener("click",e=>{if(!e.target.closest(".sbox"))$("#sres").classList.add("hide");
+const fl=e.target.closest(".flip");if(fl){fl.classList.toggle("on");return}
+const vw=e.target.closest("[data-view]");if(vw){$("#sres").classList.add("hide");showProd(vw.getAttribute("data-view"));return}
+const t=e.target.closest("button,a");if(!t)return;const d=a=>t.getAttribute(a);
+if(t.id==="cartBtn")openCart(true);
+else if(t.id==="closeCart"||t.hasAttribute("data-close"))openCart(false);
+else if(t.id==="goPay"){openCart(false);if(location.hash==="#checkout")route();else location.hash="#checkout"}
+else if(d("data-addq")){setQty(d("data-addq"),(cart[d("data-addq")]||0)+1);toast("Added to cart 🛒")}
+else if(d("data-add")){setQty(d("data-add"),1);toast("Added to cart 🛒")}
+else if(d("data-q"))setQty(d("data-q"),(cart[d("data-q")]||0)+Number(d("data-d")));
+else if(d("data-pay")){pay=d("data-pay");drawPay(sub()+shipOf(sub()))}
+else if(d("data-copy")){const v=d("data-copy");(navigator.clipboard?navigator.clipboard.writeText(v):Promise.reject()).then(()=>toast("Copied"),()=>toast("Copy not available — select the text manually"))}
+else if(t.hasAttribute("data-publish"))publish();
+else if(t.hasAttribute("data-discard"))arm(t,"Click again to discard",discard);
+else if(t.hasAttribute("data-pincheck")){const v=$("#pinq").value.trim();$("#pinr").textContent=!/^\d{6}$/.test(v)?"Enter a valid 6-digit PIN code":pinOk(v)?"📍 We deliver to "+v:"❌ Sorry, we don't deliver to "+v+" yet — message us on WhatsApp"}
+else if(t.hasAttribute("data-pmx"))$("#pm").classList.add("hide");
+else if(d("data-pd"))openPD(d("data-pd"));
+else if(t.hasAttribute("data-pdx"))$("#pdm").classList.add("hide");
+else if(t.hasAttribute("data-pdrm")){const p=byId($("#pdf").getAttribute("data-id"));if(p){delete p.img;saveP();$("#pdprev").innerHTML="<span>"+esc(p.e||"🌾")+"</span>";toast("Photo removed")}}
+else if(d("data-rmg")){const i=+d("data-rmg");patchCfg(c=>{(c.gallery||[]).splice(i,1)});tAccess()}
+else if(d("data-rmr")){const i=+d("data-rmr");patchCfg(c=>{(c.reviews||[]).splice(i,1)});tAccess()}
+else if(d("data-delenq")){const id=d("data-delenq");S.set("sf_enq",S.get("sf_enq",[]).filter(q=>q.id!==id));tEnq()}
+else if(d("data-inv"))showInv(d("data-inv"));
+else if(t.hasAttribute("data-invx"))$("#invm").classList.add("hide");
+else if(t.hasAttribute("data-invdl"))dlInv();
+else if(t.hasAttribute("data-invpr")){try{$("#invf").contentWindow.focus();$("#invf").contentWindow.print()}catch(x){toast("Printing is not available here")}}
+else if(t.id==="logout"){setAdmin("");location.hash="#top"}
+else if(d("data-atab")){atab=d("data-atab");admin()}
+else if(d("data-pv"))updateOrder(d("data-pv"),o=>{o.pay="Verified";logE(o,"Payment verified")});
+else if(d("data-pr"))updateOrder(d("data-pr"),o=>{o.pay="Rejected";logE(o,"Payment could not be verified")});
+else if(d("data-del")){const id=d("data-del");arm(t,"Sure?",()=>{saveOrders(orders().filter(o=>o.id!==id));admin()})}
+else if(d("data-sp"))saveProd(t.closest("tr"),d("data-sp"));
+else if(d("data-dp")){const id=d("data-dp");arm(t,"Sure?",()=>{P=P.filter(p=>p.id!==id);delete cart[id];saveP();saveCart();tProducts()})}
+else if(t.hasAttribute("data-resetp"))arm(t,"Click again to confirm",()=>{P=DEFP.map(p=>({...p}));saveP();Object.keys(cart).forEach(k=>{if(!live(k))delete cart[k]});saveCart();tProducts()});
+else if(t.hasAttribute("data-cert")){$("#certimg").src=cfg().fssaiImg;$("#certm").classList.remove("hide")}
+else if(t.hasAttribute("data-certx"))$("#certm").classList.add("hide");
+else if(t.hasAttribute("data-rmcert")){patchCfg(c=>{delete c.fssaiImg});applyBiz();toast("Certificate removed");tAccess()}
+else if(t.hasAttribute("data-rmqr")){patchCfg(c=>{delete c.qrImg});toast("Custom QR removed");tPay()}
+else if(d("data-rma")){const u=d("data-rma");patchCfg(c=>{c.admins=(c.admins||[]).filter(a=>a.u!==u)},true);tAccess()}});
+document.addEventListener("change",e=>{const x=e.target,a=n=>x.getAttribute&&x.getAttribute(n);
+if(a("data-st")){const s=x.value;updateOrder(a("data-st"),o=>{if(s!=="Placed"&&s!=="Cancelled"&&o.pay!=="Verified"){toast("Verify the payment first");return false}if(s==="Dispatched"&&o.status!=="Dispatched")o.dispAt=Date.now();o.status=s;logE(o,"Status: "+s)})}
+else if(a("data-trk"))updateOrder(a("data-trk"),o=>{o.courier=x.value.trim();logE(o,"Courier / tracking updated");toast("Tracking saved")},true);
+else if(x.id==="flt"){filt=x.value;drawOrd()}
+else if(a("data-pf")&&x.files[0]){const id=a("data-pf"),tr=x.closest("tr");readQr(x.files[0],700).then(u=>{if(id==="new")pendingImg=u;else{const p=byId(id);if(!p)return;p.img=u;saveP()}tr.querySelector(".pthumb").innerHTML='<img src="'+u+'" alt="">';toast(id==="new"?"Photo ready — click Add product":"Photo saved")},()=>toast("Please choose an image under 8 MB"))}
+else if(x.id==="galf"&&x.files[0]){if(cfg().gallery.length>=6){setErr("gal","Maximum 6 photos");return}readQr(x.files[0],700).then(u=>{patchCfg(c=>{c.gallery=(c.gallery||[]).concat(u)});tAccess()},()=>setErr("gal","Please choose an image under 8 MB"))}
+else if(x.id==="pimg"&&x.files[0]){const p=byId(x.form.getAttribute("data-id"));readQr(x.files[0],700).then(u=>{p.img=u;saveP();$("#pdprev").innerHTML='<img src="'+u+'" alt="">';toast("Photo saved")},()=>setErr("pimg","Please choose an image under 8 MB"))}
+else if(x.id==="certf"&&x.files[0])readQr(x.files[0],1400).then(u=>{patchCfg(c=>{c.fssaiImg=u});applyBiz();toast("Certificate uploaded");tAccess()},()=>setErr("cert","Please choose an image file under 8 MB"));
+else if(x.id==="qrf"&&x.files[0])readQr(x.files[0]).then(u=>{patchCfg(c=>{c.qrImg=u});toast("QR updated");tPay()},()=>setErr("qr","Please choose an image file under 8 MB"))});
+document.addEventListener("input",e=>{if(e.target.id==="sq")doSearch(e.target.value);else if(e.target.id==="qs"){qs=e.target.value.trim();drawOrd()}else if(e.target.id==="fz"){const v=e.target.value.trim();setErr("fz",/^\d{6}$/.test(v)&&!pinOk(v)?"Sorry, we don't deliver to this PIN code yet":"")}});
+document.addEventListener("submit",e=>{const f=e.target;
+if(f.id==="pf"){e.preventDefault();const g=i=>$("#"+i).value.trim();
+if(!/^[\w.\-]{2,}@[a-zA-Z0-9]{2,}$/.test(g("s_upi")))return setErr("set","Enter a valid UPI ID like name@bank");
+if(g("s_ship")===""||Number(g("s_ship"))<0)return setErr("set","Delivery charge must be 0 or more");if(!/^[\d,\s]*$/.test(g("s_pins")))return setErr("set","PIN list can only have digits, commas and spaces");
+patchCfg(c=>{c.upi=g("s_upi");c.payee=g("s_payee")||DEF.payee;c.ship=Math.round(Number(g("s_ship")));c.free=Math.max(0,Math.round(Number(g("s_free"))||0));c.pins=g("s_pins");c.bank={holder:g("s_h"),acc:g("s_acc"),ifsc:g("s_ifsc").toUpperCase(),name:g("s_bn"),branch:g("s_br")}});toast("Payment details saved");tPay()}
+else if(f.id==="bf"){e.preventDefault();const g=i=>$("#"+i).value.trim();if(g("b_name").length<2)return setErr("biz","Enter the business name");if(g("b_email")&&!/^\S+@\S+\.\S+$/.test(g("b_email")))return setErr("biz","Enter a valid email");if(g("b_fssai")&&!/^\d{14}$/.test(g("b_fssai")))return setErr("biz","FSSAI licence number must be exactly 14 digits");if(!/^\d{10,15}$/.test(g("b_wa").replace(/\D/g,"")))return setErr("biz","Enter a valid WhatsApp number with country code");
+patchCfg(c=>{c.biz={name:g("b_name"),addr:g("b_addr"),phone:g("b_phone"),email:g("b_email"),gstin:g("b_gst"),fssai:g("b_fssai"),whatsapp:g("b_wa").replace(/\D/g,""),retHrs:Math.max(1,Math.round(Number(g("b_ret"))||48)),note:g("b_note")}});applyBiz();toast("Business details saved");tAccess()}
+else if(f.id==="pdf"){e.preventDefault();const p=byId(f.getAttribute("data-id")),g=i=>$("#"+i).value.trim();if(!p)return;const mrp=Math.round(Number(g("d_mrp"))||0);if(mrp&&mrp<p.price)return setErr("pd","MRP can't be lower than the selling price ("+inr(p.price)+")");p.mrp=mrp||undefined;p.badge=g("d_bdg")||undefined;p.shelf=g("d_shelf");p.ing=g("d_ing");p.sto=g("d_sto");p.nutri=g("d_nut");saveP();$("#pdm").classList.add("hide");toast("Product details saved");if(atab==="products"&&adminUser())tProducts()}
+else if(f.id==="rf"){e.preventDefault();const n=$("#r_n").value.trim(),t=$("#r_t").value.trim();if(n.length<2||t.length<5)return setErr("rev","Enter the customer's name and review text");patchCfg(c=>{c.reviews=(c.reviews||[]).concat({n,t,s:+$("#r_s").value})});toast("Review added");tAccess()}
+else if(f.id==="wf"){e.preventDefault();const g=i=>$("#"+i).value.trim();if(g("w_n").length<2||g("w_i").length<2)return setErr("wh","Please enter your name and the products you need");if(!/^[6-9]\d{9}$/.test(g("w_p")))return setErr("wh","Enter a valid 10-digit mobile number");
+const q={id:"W"+Date.now().toString(36),t:Date.now(),name:g("w_n"),biz:g("w_b"),phone:g("w_p"),city:g("w_c"),item:g("w_i"),qty:g("w_q"),msg:g("w_m")};S.set("sf_enq",[q].concat(S.get("sf_enq",[])));
+$("#app").innerHTML=`<div class="panel" style="text-align:center;max-width:560px;margin:auto"><div class="okc">🎉</div><h2 style="margin:0">Enquiry received</h2><p class="sub">Thank you, ${esc(q.name)}. For a faster reply, send it to us on WhatsApp too.</p><p><a class="btn" target="_blank" rel="noopener" href="${waLink("Wholesale enquiry\nName: "+q.name+"\nBusiness: "+q.biz+"\nPhone: "+q.phone+"\nCity: "+q.city+"\nProducts: "+q.item+"\nQuantity: "+q.qty+"\n"+q.msg)}">💬 Send on WhatsApp</a> <a class="btn alt" href="#top">Back to shop</a></p></div>`}
+else if(f.id==="af"){e.preventDefault();const u=$("#a_u").value.trim(),p=$("#a_p").value;if(!/^[A-Za-z0-9_.-]{3,20}$/.test(u))return setErr("acc","Username: 3–20 letters, numbers, . _ -");if(p.length<8)return setErr("acc","Password must be at least 8 characters");
+hashPw(u,p).then(h=>{patchCfg(c=>{c.admins=(c.admins||[]).filter(a=>a.u.toLowerCase()!==u.toLowerCase());c.admins.push({u,h})},true);toast("Admin saved");tAccess()})}});
+$("#scrim").addEventListener("click",()=>openCart(false));
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){$("#sres").classList.add("hide");openCart(false);$("#invm").classList.add("hide");$("#certm").classList.add("hide");$("#pm").classList.add("hide");$("#pdm").classList.add("hide")}});
+window.addEventListener("hashchange",route);
+applyBiz();applyLang();count();route();
+})();
+</script>
+</body>
+</html>
